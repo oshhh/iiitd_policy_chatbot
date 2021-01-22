@@ -1,0 +1,217 @@
+All Courier boys will enter through Gate No 1 and after parking their vehicle in main parking shall be directed to the security guard at the GF old building/reception for delivery of courier. No courier boy will be allowed access inside the building
+0.799: (All Courier boys; will enter through; Gate No 1)
+0.785: (No courier boy; will be allowed; access)
+0.708: (All Courier boys; will enter at; the GF old building/reception)
+0.697: (All Courier boys; will enter for; delivery of courier)
+0.696: (their vehicle; be parking in; main parking)
+
+All Food delivery boys will enter through Gate No 1 and after parking their vehicle in the main parking shall be directed to reception for delivery of Food. No courier boy will be allowed access inside the building". The food items will be collected directly from delivery boy at reception only.
+0.869: (The food items; will be collected directly only from; delivery boy)
+0.819: (The food items; will be collected directly only at; reception)
+0.799: (All Food delivery boys; will enter through; Gate No 1)
+0.696: (their vehicle; be parking in; the main parking)
+0.684: (All Food delivery boys; will enter for; delivery of Food)
+0.542: (The food items; will be collected directly only in; delivery boy)
+
+Gate No 1: Visitor entry to the campus is allowed from 8 am to 10 pm through Gate No 1.
+0.886: (Visitor entry; is allowed from; 8)
+
+Any visitor coming to the building complex can gain entry through Gate No 1 only after confirmation from the staff members whom the visitor intends to meet or in the case of non-availability of the member, a confirmation has to be obtained from GM(Ops). Before a visitor is allowed access, his details would be logged in the provided register along with the car numbers. Visitors will only be allowed access through entry gate.
+0.928: (his details; would be logged in; the provided register)
+0.788: (Any visitor coming to the building complex; can gain entry through Gate No 1 after; confirmation whom the visitor intends to meet or in the case of non-availability of the member , a confirmation has to be obtained from GM(Ops ))
+0.758: (Any visitor coming to the building complex; can gain; entry)
+0.685: (entry; can be gain after; confirmation whom the visitor intends to meet or in the case of non-availability of the member , a confirmation has to be obtained from GM(Ops ))
+0.629: (Any visitor; coming to; the building complex)
+0.623: (a confirmation; has in; the case of non-availability of the member)
+
+All visitors entering campus are under CCTV surveillance and the number plate is recorded by the camera.
+0.794: (All visitors entering campus; are under; CCTV surveillance and the number plate)
+
+After obtaining due clearance for the access, as mentioned above, the visitors coming in self-driven cars will be requested to park their car in the Parking Area near Academic Block.
+0.772: (their car; to be park in; the Parking Area near Academic Block)
+0.685: (the visitors; coming in; self-driven cars)
+
+Any visitor coming to the complex in a chauffeur driven car will be treated in the same manner as mentioned above except that the car will be allowed to drop the visitor at the intended destination but the driver will have to come back to the Parking Area and wait for the call.
+0.921: (driven car; will be treated in; the same manner)
+0.781: (Any visitor; coming in; a chauffeur driven car will be treated in the same manner as mentioned above except that the car will be allowed to drop the visitor at the intended destination but the driver will have to come back to the Parking Area and wait for the call)
+0.769: (Any visitor; coming to; the complex)
+0.73: (the driver; will have to wait for; the call)
+0.691: (the car; to drop the visitor at; the intended destination)
+0.686: (the car; to drop; the visitor)
+0.658: (the visitor; to be drop at; the intended destination)
+
+Any visitor coming with a staff member in his/her car or otherwise will be dealt with as an isolated visitor and subjected to all formalities of a visitor.
+0.769: (Any visitor; coming with; a staff member)
+
+At the time of departure, the visitor informs his departure and the time will be entered in the visitor register.
+0.937: (his departure and the time; will be entered in; the visitor register)[attrib=the visitor informs]
+0.688: (the visitor; informs at; the time of departure)
+
+Gate No 3 remains open from 6 am to 11 pm. The entry through Gate No 3 is restricted to Faculty and staff, Students using pathway, Faculty visitors
+No extractions found.
+
+The vehicles entering the IIITD Campus shall do so from Gate No 1. The Faculty staying inside the campus and their visitors may also use Gate No 3.
+0.813: (The Faculty staying inside the campus and their visitors; may also use; Gate No)
+
+Resident Students are not allowed to park or use their personal vehicles inside the campus.
+0.83: (their personal vehicles; be use inside; the campus)
+
+Overnight parking is not allowed inside the campus except by resident faculty.
+0.925: (Overnight parking; is not allowed inside; the campus)
+
+The vehicles entering the IIITD Campus shall keep themselves to the left of the road. The campus is a No Horn Zone and a maximum speed of 20 km/hr is permissible.
+0.769: (Campus; shall keep; themselves)
+0.768: (The campus; is; a No Horn Zone and a maximum speed of 20 km/hr is permissible)
+
+All Faculty/staff and students using their vehicles will display the sticker of IIITD. All visitors’ vehicles shall do the necessary registration at the main gate at entry.
+0.852: (All Faculty/staff and students using their vehicles; will display; the sticker of IIITD. All visitors ' vehicles)
+0.739: (the necessary registration; shall be do at; the main gate)
+0.711: (All Faculty/staff and students using their vehicles; will display the sticker of IIITD. All visitors ' vehicles shall do the necessary registration at; the main gate)
+0.708: (the necessary registration; shall be do at; entry)
+0.679: (All Faculty/staff and students using their vehicles; will display the sticker of IIITD. All visitors ' vehicles shall do the necessary registration at; entry)
+0.625: (All Faculty/staff and students using their vehicles; will display the sticker of IIITD. All visitors ' vehicles shall do; the necessary registration)
+
+Designated parking for students is in front of Academic Block, Bay no 3.
+0.858: (Designated parking; is in; front of Academic Block)
+0.267: (Academic Block; be front of; Bay no)
+0.233: (Academic Block; be front in; Bay no)
+
+Designated parking for Faculty, Staff, Visitors is in front of the academic block.
+0.854: (Designated parking; is in; front of the academic block)
+0.763: (Designated; be parking for; Faculty)
+0.237: (Faculty; be Designated parking for; Staff)
+
+Any vehicle reported by Faculty/Officers/SC/Security for violation of the above guidelines will be fined Rs 200.
+0.818: (Any vehicle; be reported for; violation of the above guidelines)
+0.803: (Any vehicle; be reported by; Faculty/Officers/SC/Security)
+0.598: (Any vehicle reported by Faculty/Officers/SC/Security for violation of the above guidelines; will be fined; Rs 200)
+
+The Helpdesk can be contacted through Email on "admin-facilities@iiitd.ac.in" or mobile on 9868878433 or extension on 420/566 or Whatsapp on 9868878433 or Admin helpdesk Portal through http://fmshelpdesk.iiitd.edu.in
+0.919: (The Helpdesk; can be contacted through; Email)
+
+Any complaints pertaining to facilities such as AC, Electricity, plumbing, housekeeping, lift etc. can be addressed to help desk.
+0.633: (Any complaints; pertaining to; facilities)
+
+On receipt of the complaint, the Helpdesk issues a complaint number which is sent by a response email. In case the complaint has been registered on Helpdesk mobile number the complaint number will be given verbally.
+0.776: (the complaint; has been registered on; Helpdesk mobile number)
+0.682: (the Helpdesk issues; will be given verbally on; receipt of the complaint)
+0.682: (the complaint number; will be given verbally on; receipt of the complaint)
+0.572: (the complaint; has been registered in; case)
+0.284: (the Helpdesk issues; will be given verbally in; receipt of the complaint)
+0.284: (the complaint number; will be given verbally in; receipt of the complaint)
+
+The Helpdesk Executive thereafter assigns the complaint to the concerned individual in the FMS team.
+0.865: (The Helpdesk Executive; thereafter assigns the complaint to; the concerned individual)
+0.811: (The Helpdesk Executive; thereafter assigns the complaint in; the FMS team)
+0.797: (The Helpdesk Executive; thereafter assigns; the complaint)
+
+Complaints which requires the assistance of the Project team, external agency or OEM will be informed to FM and GM(Ops). The expected time to address such complaints will be informed to the complainant. (eg. RO, Lift, Breakages etc.).
+0.914: (such complaints; will be informed to; the complainant)
+0.909: (the assistance of the Project team , external agency or OEM; will be informed to; FM and GM(Ops)
+
+On completion of the work the Helpdesk informs the complainant.
+0.761: (the Helpdesk; informs; the complainant)
+0.675: (the Helpdesk; informs the complainant on; completion of the work)
+
+The Complaint will be closed subject to confirmation by the complainant.
+No extractions found.
+
+The SLA for complaints requiring urgent action such as non-availability of power supply, non-functional HVAC, Water supply disruption, clean ship etc will be will be addressed within 2 hrs.
+0.636: (The SLA; will be addressed within; 2 hrs)
+0.473: (Water supply disruption; be The SLA for; complaints requiring urgent action such as non-availability of power supply)
+
+The SLA for other complaints of general nature will be 24 Hrs.
+0.75: (The SLA; will be; 24 Hrs)
+
+AC and Heating Schedule for Hostel is on https://iiitd.ac.in/sites/default/files/docs/life/ac-schedule-for-hostels.pdf
+0.846: (AC and Heating Schedule; is on; https ://iiitd.ac.in/sites/default/files/docs/life/ac-schedule-for-hostels)
+
+The Housekeeping staff is available in Campus in two shifts from 7 to 4 pm with 41 staff available and 11 to 8 pm with 1 staff available.
+0.852: (The Housekeeping staff; is available in; two shifts)
+0.832: (The Housekeeping staff; is available in; Campus)
+0.814: (The Housekeeping staff; is available to; 4 pm)
+0.746: (The Housekeeping staff; is; available)
+
+The housekeeping staff during this period is deployed in various areas which include hostel, Dining block, Academic and lecture Block, Library , External road area, and faculty residence.
+0.929: (The housekeeping staff; is deployed in; various areas which include hostel)
+0.582: (The housekeeping staff; is deployed; Academic)
+
+Floors are cleaned daily in hostel.
+0.919: (Floors; are cleaned daily in; hostel)
+
+Toilets are cleaned three times a day in hostel.
+0.898: (Toilets; are cleaned in; hostel)
+
+Stairs are cleaned daily in hostel.
+0.919: (Stairs; are cleaned daily in; hostel)
+
+Common rooms are cleaned daily in hostel.
+0.919: (Common rooms; are cleaned daily in; hostel)
+
+Lifts are cleaned daily in hostel.
+0.834: (Lifts; are cleaned daily in; hostel)
+
+Hostel rooms are cleaned as required by student once in two days in hostel.
+No extractions found.
+
+Fans and lights are cleaned once in a month or on request in hostel.
+0.921: (Fans and lights; are cleaned once in; a month or on)
+
+Floors are cleaned daily in campus.
+0.919: (Floors; are cleaned daily in; campus)
+
+Toilets are cleaned three times a day in campus.
+0.898: (Toilets; are cleaned in; campus)
+
+Glass is cleaned daily in campus.
+0.847: (Glass; is cleaned daily in; campus)
+
+Stairs are cleaned daily in campus.
+0.919: (Stairs; are cleaned daily in; campus)
+
+Lifts are cleaned daily in campus.
+0.834: (Lifts; are cleaned daily in; campus)
+
+garbage is removed daily in campus.
+0.919: (garbage; is removed daily in; campus)
+
+Offices are cleaned daily or as required by faculty or staff.
+No extractions found.
+
+Roads are cleaned daily in campus.
+0.919: (Roads; are cleaned daily in; campus)
+
+Common areas are cleaned daily in campus.
+0.919: (Common areas; are cleaned daily in; campus)
+
+Labs and classrooms are cleaned daily in campus.
+0.919: (Labs and classrooms; are cleaned daily in; campus)
+
+Fans and lights are cleaned once in a month in campus.
+0.929: (Fans and lights; are cleaned once in; a month)
+
+Facade glass is cleaned from outside once in a month in campus.
+0.9: (Facade glass; is cleaned from; outside)
+
+Fire drill for Hostels, Academic Block and Library will be conducted once every semester. The schedule will be promulgated in advance.
+0.914: (The schedule; will be promulgated in; advance)
+
+In order to provide 24X7 medical cover for our Faculty, Staff and students both staying in hostel and day scholars the Institute has set up an Infirmary at Ground Floor in the girl's hostel.
+0.775: (the Institute; has set up; an Infirmary)
+
+Dr. RK Katharya B.Sc, MBBS, FCPG will be available at our premises from Monday to Saturday between -15:30-16:30 hrs.
+0.684: (Dr. RK Katharya B.Sc; will be available at; our premises)
+0.669: (Dr. RK Katharya B.Sc; will be available from; Monday)
+0.669: (Dr. RK Katharya B.Sc; will be available to; Saturday)
+0.654: (Dr. RK Katharya B.Sc; will be available between; -15:30-16:30 hrs)
+0.646: (Dr. RK Katharya B.Sc; will be; available)
+
+A qualified Nurse Ms. Neha Dhiman is normally available from Monday to Saturday from 9.00 A.M to 5.30 P.M (except during lunch break from 12.30 p.m to 1.30 p.m), Ms. Neha can also be reached at Ext: 531. She can also be contacted on mobile No: 9650907449.
+0.869: (She; can also be contacted on; mobile No: 9650907449)
+0.788: (A qualified Nurse Ms. Neha Dhiman; is normally available from; Monday)
+0.743: (A qualified Nurse Ms. Neha Dhiman; is normally available to; Saturday)
+0.734: (A qualified Nurse Ms. Neha Dhiman; is normally available from; 9.00)
+0.726: (Ms. Neha; can also be reached; 531)
+0.723: (A qualified Nurse Ms. Neha Dhiman; is normally; available)
+0.688: (Ms. Neha; can also be reached 531 . She can also be contacted on mobile No: 9650907449 at; Ext)
+

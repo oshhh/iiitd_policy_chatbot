@@ -1,0 +1,581 @@
+  STUDENT
+HANDBOOK 2017
+ 
+   Foreword
+  
+ This handbook has been put together to provide information which will be useful during your stay here – you may consider it as a user manual for IIIT Delhi. It also provides guidelines for expected conduct and behaviour of students within campus, both academic and non- academic. But it is not a rule-book – you will still need to refer to official documents available on our website and other places. Please read the disclaimer on the last page.
+The information governing academics is available in other places. UG/ PG regulations should be used for rules governing your programs. This book is more about student life in the campus – extra-curricular activities, sports, hostels etc. Please make use of the facilities and opportunities to develop your personality and bond with other students.
+Life here is a lot different from school – you have more freedom and will be treated as an adult. We expect you to exercise this freedom with a sense of responsibility. Code of conduct given at the end, developed by Student Council, embodies the expected behaviour of students – respect for others & their privacy, academic honesty, caring for Institute property & equipment.
+ 3
+  
+  Index
+ 
+Campus and Infrastructure 8 Life at IIIT Delhi 12 Hostel, Mess and Cafeteria 18 Other Facilities 22 Academics 26 Relevant Policies 32 Student Governance and Employment 36 Anti Sexual Harrassment Committee 40 Grievance Redressal for Students 42 Do’s and Don’ts 44 Useful Information 46 Advice from Seniors 48 Important Phone Numbers 50 Appendices 64
+ 5
+
+     About IIITD
+   
+ Indraprastha Institute of Information Technology, Delhi (IIIT Delhi) was created as a State University by an Act of the Delhi Government (The IIIT Delhi Act, 2007) empowering it to do research & development and grant degrees. IIIT Delhi was officially established on 10th June, 2008. The first class for B.Tech. (CSE) students was held on 8th September, 2008. The institute began with 60 B.Tech. students in 2008. Since then, it has come a long way, with over 60 faculty members specializing in diverse areas of Computer Science, Electronics & Communications, Computer Science & Applied Mathematics, Computer Science & Design Engineering and Information Technology & Social Sciences. In a relatively short time, it has earned a good reputation in India and abroad for being a centre of quality education and research.
+ 7
+   
+  Campus and Infrastructure
+ 
+The campus is spread over 25 acres of lush green land in South Delhi in Okhla Phase-III, near Nehru Place. It is divided into 3 zones - Academic, Students’ Area and Faculty Residences. All these are close to each other so one can just walk across from one area to another. The academic area is primarily for work and is a “no noise” zone; therefore, the Students’ Area is to be used for any activity that may otherwise disturb others working in the academic area.
+Construction of phase II of the campus is in full swing. This phase will add about 70000 sq meters including a new lecture hall complex, academic building, hostels, sports complex, etc. This will take the capacity of the Institute to about 2500 students and 125 faculty. Delivery of buildings is expected to start in September 2017.
+Some Key Features
+Energy
+The buildings of the campus are designed to be energy-efficient with insulation. A Building Management System (BMS) has been installed to optimise the use of air conditioning. The use of energy saving lighting systems and non-conventional energy through solar hot water systems and Solar photo-voltaic system has been installed to reduce power consumption and augment the grid supplied electric energy.
+Waste Water Recycling
+The entire waste water generated in the campus is recycled using 2 sewage treatment plants with a capacity of 65 KL per day, and water so generated is used for horticulture, flushing and air-conditioning works. A garbage segregation scheme for productive and safe disposal of solid waste has been worked out with a local NGO.
+Fire-Fighting Equipment
+The entire area is equipped with fire alarms and fire-fighting equipment such as wet risers/sprinklers and smoke management systems.
+Rainwater and Landscape
+Eighty per cent of the campus grounds are soft landscape (including some parking and circulation area). Many of the vehicular areas allow percolation. Rainwater harvesting pits and collection tanks have also been provided. The location of buildings on the higher ground affords distinct views towards the Bahai Temple to the north-west and over the forest reserve to the south.
+ 9
+
+How to Reach The Campus
+Students can walk down from Govindpuri Metro Station as our campus is just a little over 500 metres away from there. Besides, a walk-way connecting our campus to the Okhla Metro Station is operational now.
+Internet
+The campus uses state of art technology to meet the computing and communication needs of the institute. It has a fast, reliable and rugged computer network of more than 500 nodes. In order to facilitate teaching, all classrooms are equipped with projectors and audio systems. All the hostels, faculty blocks, administrative block, library, classrooms and residences, are connected through redundant 10 Gigabit fiber backbone network. All the blocks are connected through layer 2 & 3 switches to provide 1 Gbit/s connectivity at the user end. Every hostel room has a dedicated LAN connection to provide round the clock access to resources on the net. Wireless network with 129 access points is also enabled in the faculty block, library, classrooms and hostel blocks. Wi- fi facility is available in the cafeteria as well.
+Library and Information Center
+The Library and Information Center of the Institute is housed in a separate building. It is a user-focused center of learning resources that meets all the current and future requirements of IIIT-Delhi academic and research fraternity regarding learning, teaching, research, and training programs. The Library is fully automated using RFID Technology with EM Security System. The Library has a vast collection of print and electronic resources in all area of interest.
+  10
+
+The Library subscribes to renowned electronic resources such as ACM Digital Library; American Chemical Society (ACS); Economic & Political Weekly (EPW); Elsevier’s Science Direct Online Journals; IEL online (IEEE/IET Electronic Library); Institute for Studies in Industrial Development (ISID) Database; JSTOR; Nature Online Journal; Now Publishers - Computer Science Package (Foundations & Trends Journals); SIAM Online Journals (Society for Industrial and Applied Mathematics); Springer’s LNCS (Lecture Notes in Computer Science); Springer’s Online Journals; South Asia Archive; Taylor & Francis Online Journals; Wiley- Blackwell Online Journals; World eBook Library; J-Gate; URKUND; NPTEL Also, the Library offers the Services and Facilities such as 24x7 Open Reading Hall; Book Exhibition / Display; Document Scanning; Full-text access to subscribed E-Resources; Institutional Repository; Interlibrary Loan (ILL) and Document Delivery (DDS); Issue/Return of Learning Materials; Kindle E-Book Readers; Online Catalogue; Remote Access to Subscribed E-Resources; Workshops, Panel discussion, Book discussion etc
+For any queries / support, please contact: library@iiitd.ac.in
+Neighbourhood
+IIIT-Delhi is situated in the industrial hub of Okhla, where various shopping options are also available. Nehru Place, GK I/II and departmental store like Savemax at the Kalkaji metro station provide for daily needs and clothing at a competitive price. Besides, the campus is just a few hundred meters away from Govindpuri Metro Station, a big advantage for students using the metro service.
+  11
+
+  Life at IIITD
+ 
+Although the institute aims to develop students academically, they also enjoy various extracurricular facilities. Participation in activities of approved student groups (club, chapter, student senate/council, etc.) is mandatory in first two years - students who are active in any of the activities will be given certificate through the relevant club / group.
+Clubs
+At IIIT-Delhi, a major chunk of students’ time goes in academics as it requires hard work and focused effort. Nonetheless, there are many facilities and 18+ clubs to grow in various ways. Students take part in a number of social and cultural activities. If they want to pursue a hobby, they just need to find some like- minded people to start their own club (if not already in existence) in the Institute. These clubs not only improve leadership skills but also help in building team spirit. Several student clubs in the institute enable students to enhance their talent in areas beyond academics. The clubs at IIIT- Delhi are based on adventure, music, software development, community work, dramatics, entrepreneurship, electronics, programming, game development, dance, painting, design, photography, chess, quizzing, sightseeing, public speaking, eco-development and more. These clubs enable students to share knowledge and mentor those looking to break into the field.
+Sports and Recreation
+Sports enthusiast s will find plenty to engage themselves at IIIT-Delhi, from intra- college events like football, table tennis, pool tournaments and the Intramural, to external events like Spardha IIT BHU sports event, Ran Bhoomi, sports fest at IIM Indore, Delhi Half Marathon and Twaran, the inter-IIIT sports meet.
+  13
+
+The institute is equipped with a number of indoor and outdoor sports facilities. The top floor of the Dining Block houses a gymnasium, table tennis tables, and pool tables, while chess boards and carom boards are available in the hostel common rooms. Institute currently has two tennis courts, a basketball court, a volleyball field and two badminton courts. The new sports block will be ready by the end of 2017. It will house an indoor swimming pool, an indoor badminton court and two squash courts.
+IIIT-Delhi has been regularly organizing various sporting events like the Intra- IIIT-Delhi football tournament Joga Bonito, Table Tennis and Pool tournaments, etc. Every year IIITD students participate in tournaments in Delhi and outside Delhi. They were participants in the LSR invitational tournament, also took part in Spardha-IIT BHU Sports Fest from 30th-Oct to 1st-Nov 201616, Twaran Sports Fest at Gwalior in April 2017, RANBHOOMI-17, IIM Indore Sports Fest. Also a group of students from IIIT Delhi takes part in Delhi Half Marathon running for a cause. We also organize summer camps for various sports activities at IIIT Delhi campus. A mega sport event, Triquetra, an event jointly held by IIITD, NSIT and DTU every year.
+Gym
+The institute’s gym is equipped with facilities like treadmills, cross-trainer, recumbent bike, abdominal machine, dumbbells and gravity expension.
+Fests and Events
+There are two main student festivals - the technical festival Esya in August, which has now become one of the most vibrant tech-fests in Delhi, and the cultural festival Odyssey in January. Both these festivals have large external participation and have various contests. Students are organizing the TEDxIIITD event since last three years, which was hugely successful with excellent young inspirational speakers.
+   14
+
+In addition, there are internal sports and cultural events like Cadence, Research Showcase and other Tech events. The cultural activities (arts and literary) for the year are planned together by the Student Council and the Cultural Secretary. In all, a good number of extra-curricular activities take place on the campus throughout the year.
+  Community Work
+and Self Growth
+ Students are encouraged to help the society in some way or the other. Almost every student is involved with NGOs all over the country. Students are also encouraged to learn activities like Bird Watching, Basketball, Table Tennis, Swimming, Cooking, Painting, Yoga, Aerobics, Foreign Language for their personal growth and development. It is also mandatory for every undergrad student to earn 2 credits of Community Work and 2 credits of Self Growth by working for 70-80 hours for each.
+Counselling
+To help a student cope with stress, professional counsellors Dr. Amita Puri, Dr. Akshay Kumar and Khushpinder P. Sharma are available at the institute for sessions and meetings with students. Such sessions and meetings are strictly private and confidential.
+ 15
+
+If you’re sick or feeling isolated or depressed, please take advantage of the many services offered by our counselling team. You don’t have to face these issues by yourself and feel hopeless or depressed. No, not at all. We are there only for you.
+Please call at these numbers to get immediate help anytime.
+Mr. Khushpinder P. Sharma
++91-9815181252 khushpinder@iiitd.ac.in
+Dr. Amita Puri
++91-7838732232 amitapuri@iiitd.ac.in
+Dr. Akshay Kumar
++91-9999801130 akshay@iiitd.ac.in
+There are various modes of counselling consultations including face to face interactions, e mailing, whatsapp or just tele talks. There is really no need to suffer unnecessarily in case of any emotional issues you require help in dealing with. The campus counselors are there for your support and welfare. Please meet us anytime or shoot a mail and interact with them at your pace and space.
+To ensure that students remain in charge of their emotions at all times, here are some tips to settle and thrive in first year:
+Attend all orientations
+Yes its important. The faster you learn about your way in the campust the simpler it becomes to adjust.
+Be prepared to feel overwhelmed
+Lots is happening in your life right now. Some things and events may feel too much and you might feel overwhelmed. But, remember, you are not the only one feeling this way.
+Be money Wise
+Learning to manage money and budgeting is important and will save you lots of headaches and heartaches later on.
+Get to know your batchmates
+Remember, the people around you are also going through the same chaos and emotions and are your best safety net. You are going to be together for four years – so do take time out to mingle with them – your fellow first year students.
+ 16
+
+Get Organized
+Unlike in school where the teachers help you through all the assignments and due dates, here, the professors will expect you to be prepared. So, be proactive buy an organizer, use an app, or get a big wall calendar -- whatever it takes for you to know when assignments are due.
+Find the ideal place for you to study
+Its important to avoid distractions. So find a place where you feel comfortable – your room, lab or a quiet corner in the library.
+Go to the class
+It is quite tempting to oversleep and miss that morning class. Do not give in to this temptation. You will miss on very vital information professors will provide in the class.
+Priortising tasks
+It may have been easy in school to wait until the last minute to complete an assignment and still get a good grade, but that kind of pattern will not work any longer for you here. Learn to honor the deadlines.
+Stay healthy, Eat Right
+With moms no longer “there” to keep a check on your diet, you the first year students get tempted by those fried snacks and imbalanced diet with skipped meals. Sleep cycle also suffers leading to a lot of unnecessary health issues. Beware of developing this habit especially in the very first year.
+Handling homesickness
+Its natural that you will miss your family and maybe it’s the first time for you to be away from home. Learn to deal with these feelings by calling home at regular intervals by mailing too one can keep in touch.
+One last word
+Seek professional help when you need it.
+ 17
+
+  Hostel, Mess and Cafeteria
+ 
+IIIT Delhi provides accommodation to students wishing to reside in the hostels. At present there are two hostels, one for the boys having 372 seats and another for the girls with 164 seats. Each room is provided with furniture needed by a student - bed, table, chair, bookshelf, cupboard, etc. The rooms are provided night time air conditioning in peak summers, and heating in peak winters. For more details kindly visit to the following link https://www.iiitd.ac.in/sites/default/ files/docs/life/ac-schedule-for-hostels.pdf High speed Internet connectivity is also available in hostels.
+There is a common mess for the boys and girls which functions during the working semester. Air conditioning is provided in the mess during lunch time. During the winter and summer vacations, a special mess is run for students who are required to stay in the hostels for pursuing academic, sports or cultural activities. It is compulsory for all hostel residents to avail the mess facilities. Day-scholars can eat in the mess by paying the meal cost as notified. In addition to the common mess, there are two cafeterias, one located in the academic building and the other in the common mess building which cater to the needs of the students and faculty. All hostel students are completely free to move around the campus at all times, and some of the study areas are open 24x7 for benefit of students.
+Each hostel has a Hostel Committee which is an advisory body comprising the Dean (Student Affairs) and the elected student representatives as its members. Common Room is equipped with a TV, newspapers, magazines and many other facilities.
+  19
+
+An external security agency has been contracted for providing security at the hostels. The services of the security personnel are monitored by the GM-Facility Management Services (FMS). Besides, a Mess Committee is formed out of representatives from hostel committees and day scholars. The Mess Committee monitors the quality, taste and hygiene of the food served in the mess. They also interface with the mess vendor to provide him with the feedback of students and effect changes in the weekly menu. Periodical review and inspection of the quality of food items also form part of their duties.
+Hostel Allotment
+Based on the recommendation of the Hostel Allotment Committee, hostel is allotted to eligible students by the Hostel in-Charge. The points related to allotment are:
+• All PhDs who apply for hostel accommodation will get the hostel.
+• All outside Delhi students of B.Tech and M.Tech who apply for hostel accommodation will get the hostel.
+• Rest all will be allotted according to the distance criteria from the institute.
+Online applications are invited during vacations for existing students. Based on the specified criteria, the allotment committee recommends the allotment and the list is published on website with instructions for necessary payments & possession. For new students, hardcopy/online request form is collected during admissions and allotment is made to the eligible ones. In the boys’ hostel, rooms are available on single and double-seat basis, while in the girls’ hostel there is single and triple-seat arrangement. Only 50 per cent of the institute’s students can be accommodated in the hostels.
+Students' Guests
+Guests of the hostel residents may be permitted to stay in the Guest Room of the hostel, if available, by the Dean (Student Affairs) on payment of the necessary charges. The charges are subject to change from time to time.
+Hostel and Mess Fee Structure
+A regular student will be charged Rs. 32K during monsoon semester 2017, while on the twin-sharing basis it will be Rs. 24K. For girls, the option of triple sharing is also available, for which the fee is Rs. 21K. Hostel fees are revised annually.
+ 20
+
+NOTE: There will be a substantial increase by about 35% to 50% in hostel Fees for all 2017 entry students from the academic year 2018-19 and later. The increment is necessitated by the addition of new hostel and on account of higher cost of service and maintenance (both infrastructure and support staff).
+Mess charges may be between Rs 9,000 - Rs 11,500 for four months. For fee related information, refer to https://iiitd.ac.in/life/hostels/hostel-policies Mess fee payment is mandatory for hosteller.
+Some Key Conduct Rules Regarding Hostel
+• Any act of intimidation or violence, willful damage to property and drunken riotous behavior constitute an offence.
+• Smoking, use of narcotics, consumption of alcoholic beverages and gambling are strictly prohibited.
+• Damage caused to any room or common areas of the hostel, unless due to natural wear-and-tear, may be charged to individuals causing the damage or residents collectively.
+• Hostel residents are not allowed to keep motorized vehicles on the campus.
+• Hostel residents are not allowed to leave the campus without permission after mid-night.
+• A non-resident cannot stay in the hostel overnight
+• Cooking in the rooms is prohibited
+A student’s parents and other same-gender guests may visit the student in his/ her room from 8 am– 8 pm. Any other visitor can only be met in common room of the hostel. Hostel related communications shall be done via admin-hostel@ iiwitd.ac.in. E-mails sent to any other email id will not be entertained.
+ 21
+
+  Other Facilities
+ 
+Our campus is situated in the heart of Delhi and that is why we rely on facilities available in the city for most things. However, some necessities such as stationery and general supplies are available in the campus.
+Medical Facilities
+In order to provide 24X7 medical cover for our Faculty, Staff and students the Institute has setup an Infirmary at Ground Floor in the girl’s hostel. Qualified Medical Practitioner (B.Sc, MBBS, FCPG) is be available in our premises six days a week from Monday to Saturday between 15:00-16:00 Hrs. Qualified Nurse is available from Mon to Sat from 9.00 A.M to 5.30 P.M (except during lunch break from 12.30 p.m to 1.30 p.m), she can also be reached at Ext: 531. “First Aid” kits are available with the guards posted in the Academic and hostel blocks by dialling the security’s extension number 592. For other medical help, following nearby hospitals are available:
+Banarsidas Chandiwala Institute of Medical Sciences
+It is located at next to our campus, provides OPD facilities between 9 a.m - 1 p.m every day except on Sundays and holidays. The students are offered a special rebate of 10% on the total bill, excluding the cost of medicines. The students are expected to show their identity card at the time of billing. The hospital offers treatment in all areas of healthcare except those needing Intensive Care facilities. It does not have an operational casualty round the clock however, as a special case the hospital has extended the services of Resident Medical Officer available 24/7. Any student requiring Intensive care can be transferred to Apollo Hospital by the Hospital Ambulance. For help, call 49020269 and 49020200.
+  23
+
+Irene Hospital located at DD-23, Kalkaji
+It is a 40-bed hospital with 24 hrs ICU and Emergency backup. It provides Free 24 hr Ambulance Services in case of emergency. The subsidized charges for IIIT-Delhi student in OPD are Rs 150/-per consultation. Also, a discount of 10% is available on any services of the hospital. The hospital’s phone number is 49922222.
+Indraprastha Apollo Hospital, Sarita Vihar, Mathura Road
+It is at the forefront of medical technology and expertise. It provides a complete range of latest diagnostic, medical and surgical facilities for the care of its patients. The hospital offers 10% Discount on Standard Apollo Health Check Packages for students and 5% discount on in-patient services on Room Rent & Investigations (Except Critical Care Beds). The hospital extends personal assistance in admissions and treatment. Apollo hospital’s call centre number: 26925858/01 & Extn. 1090/91
+Photocopying and Scanning Facilities
+A shop for basic supplies has been opened on the ground floor of the Dining block, which also offers photocopying/scanning facilities on payment basis. The students may also visit nearby markets in Govindpuri, Kalkaji and Nehru Place for purchasing consumer goods and other necessities
+   24
+
+ATM Banking Facility
+HDFC ATM is located on the ground floor of dining block and Andhra Bank ATM in the Ground Floor of Academic Building. Besides, a cheque drop box has been kept outside the Accounts Section in the Academic Building where the cheques meant to be deposited in the HDFC bank can be dropped by the account holders of HDFC. For education loan, fee receipts and opening of bank account, the students may contact the Accounts Section, which is housed on the first floor of Academic Block.
+ 25
+
+  Academics
+ 
+Classes generally start around 9 am, but may commence earlier sometimes. Some classes can also be arranged on Saturdays. After joining, a student participates in the Induction cum orientation program. He/she is also provided with a copy of the Student Handbook apart from an identity card. Students are given Smart Cards to enable them to access labs in the academic area. B.Tech labs on the second floor of the library building are accessible to all under- graduate students, who may also get access for M.Tech labs at the discretion of the faculty. E-mail Ids within the institute’s domain are created for new students by the IT department. Every student will also be provided with ERP account where he/she has to register his/her courses every semester and can check his/ her grades
+Attendance Policy
+Attendance is taken in all core courses. Students having less than 75% attendance in core courses are issued warning and other actions as approved by the Senate may be taken.
+Academic Rules
+Ordinances for B.Tech. Program
+• Regulations for B.Tech. Program
+• Specific Regulations for B.Tech. (CSE) Program
+• Specific Regulations for B.Tech. (ECE) Program
+• Specific Regulations for B.Tech. (CSAM) Program
+• Specific Regulations for B.Tech. (CSD) Program
+• Specific Regulations for B.Tech. (ITSS) Program
+• Regulations for Minor in Economics
+• Regulation for Minor in Computational Biology (CB)
+• Operational Guidelines for B.Tech. Program
+• Specific Regulatons for Dual Degree.(CSE and ECE) Program • Ordinances for PG (M.Tech. and PhD) Program
+• Regulations for PG (M.Tech. and PhD) Program
+• Specific Regulations for M.Tech. (CSE) Program
+• Specific Regulations for M.Tech. (ECE) Program
+• Specific Regulations for M.Tech. (CB) Program
+All the above documents are available at http://www.iiitd.ac.in/education/ resources
+ 27
+
+ Academic Evaluation
+Each course is conducted by the assigned Instructor with the assistance of tutors and/or teaching assistants. The Instructor is responsible for conducting the lectures, tutorials, and labs, holding the tests and examinations, evaluating the performance of the students, and awarding grades at the end of the semester/ summer term. A system of continuous evaluation is employed, in which, during a course, various instruments like tests, assignments, projects, mid-semester and end–semester exams etc. are given to assess the learning of students. All evaluations are the responsibility of the instructor of the course. At the end of the semester, based on the overall performance in the course, a letter grade is awarded to each student by the instructor. Each letter grade carries certain points which are used in the computation of the semester/ overall performance.
+Medical Absence
+If a student is absent on medical grounds, he/she must submit a medical certificate to the Academic section. All leave is approved by DOAA. Maximum duration of leave is defined in UG/PG regulations.
+Rules for absence from exams on medical ground:
+1. In case of absence from Exam, student should inform the Instructor through email with cc to admin-btech@iiitd.ac.in before or on the day of exam. No late information will be considered.
+ 28
+
+2. Medical certificate needs to be submitted to Academic Section through Email or on the very first day of your joining back to the Institute.
+Approval and Make up Exam Rules:
+1. Medical certificate may be verified from the concerned Doctor.
+2. The certificate will be sent to DOAA for approval.
+3. Only approved cases will be informed to instructors.
+4. Instructor may conduct a re-exam or may grade the student on the basis of his/her performance during the semester (This will vary from course to course). However if End Sem Exam has been missed, re-exam will be conducted.
+5. In case of re-exam, level of re-exam will normally be harder than the regular exam.
+Duplicate ID
+If a student loses his/her identity card, duplicate identity card may be issued on submitting an application to the Academic section, lodging of online FIR on Delhi Police website and payment of Rs 200 to the Accounts section.
+Fee Payment
+Academic and Hostel Fee can be paid online through ERP and through the institute’s website
+Fee Waiver/Scholarship
+The institute offers income-linked fee waiver/ scholarship of 25% or 50% (100% fee waiver is applicable for the wards of BPL families) to students against suitable documents of income disclosure. Details are available on https://www. iiitd.ac.in/admission/btech-scholarship
+Chairman’s Merit Scholarship in BTech admission for top students
+Delhi students whose JEE rank is less than 2000 are given a scholarship of Rs 1.25 lacs / year (which can be adjusted against the fees) for the entire duration of their BTech at IIIT-Delhi, provided they maintain a CGPA of 8.5 or above. They will get Chairman’s Scholarship for the first year. For subsequent years they will get the scholarship if their CGPA is 8.5 or above.
+ 29
+
+Fee Structure
+Tuition Fees: Rs. 2,50,000 per annum
+Caution Fees: Rs. 10,000/- (one-time payment which is refundable) Hostel Fees: Rs. 64, 000/- per annum for single occupancy
+Visit for more information https://iiitd.ac.in/life/hostels/
+Plagiarism
+IIIT Delhi maintains global academic standards and does not tolerate any form of academic dishonesty. Almost all violations of academic honesty in course submissions (homework assignments, project reports) are instances of plagiarism. An example of Academic dishonesty is when some part(s) of a student’s assignment are someone else’s writing/idea/art (for example a friend, a solution manual, a website), but the student claims it as his/her own by not explicitly making it clear that these parts are someone else’s.
+If, for whatever reason, a student has to use some existing work, the student cannot copy and can only borrow. Therefore, it is the student’s responsibility to explicitly indicate which parts are borrowed. A student is allowed to borrow definitions, formulae, figures, one sentence, etc. by:
+1. attributing it to the original source and
+2. making it absolutely clear that the copied part is not the student’s own (a student needs to do both)
+For more information, please visit https://www.iiitd.ac.in/academics/resources/ academic-dishonesty
+  30
+
+Contact Points
+• For course-related issues: TFs, TAs and Instructors
+• For any program: Program Coordinator
+• For policy matters and during special situations: UGC/PGC Chairs
+• Other Academic issues (like course registration, issue of certificates, transcripts etc.) : Academic Section
+  31
+
+  Relevant Policies
+ 
+Students are expected to abide by rules of conduct and maintain peace and discipline in the campus. They should follow the policies formulated by the institute from time to time for mutual benefit of the two sides. Most of the policies are given in this section.
+Vehicle Policy
+All vehicles entering the Campus shall do so from Gate No 1. Resident students are not allowed to use their personal vehicles inside the campus. The vehicles entering the campus shall keep themselves to the left of the road. The campus is a No Horn Zone and a maximum speed of 20 km/hr is permissible. All day- scholars using their vehicles will have to display the car sticker prominently, while visitors’ vehicles shall do the necessary registration at the main gate at entry.
+Parking Policy
+Hostel residents are not allowed to keep a motorized vehicle inside the campus and any violation of this may attract a fine of Rs. 200/- for the first time. In a bid to discourage use of private transport by day-scholars also, a nominal parking charge will be levied on those bringing their vehicles to the campus. The complete vehicle and parking policy is appended to the end of this document (Appendix-I)
+Anti-Ragging Policy
+IIIT Delhi has zero-tolerance policy on ragging, which is a punishable offence. The institute has formed an anti-ragging committee and squads. Besides, each student of the institute and his/her parents and/or guardian are required to submit a combined undertaking against ragging at the time of registration, which is a mandatory process. All concerned officials of the institute, students, parents and guardians of the students, members of anti-ragging committee and squads need to adhere to the stipulations on the matter and effectively monitor and comply with the provisions made against ragging.
+Disciplinary Action
+Indiscipline, which can lead to disciplinary action against a student, will include, but not be confined to, physical abuse of any person or any action that threatens or endangers the emotional well-being, health, or safety of any person; theft of or damage to property of the Institute; unauthorized entry to or use of the facilities of the Institute; obstruction or disruption of teaching,
+ 33
+
+research, administration, hearing procedures, or other activities of the Institute; forgery, alteration, or misuse of documents or records of the Institute or, knowingly furnishing false information to the Institute; and violation of code of conduct & regulations of the Institute. Besides, failure or refusal to appear upon request or to cooperate in the investigation or hearing of cases of alleged offenses; incidents of academic dishonesty such as copying in home assignments, term papers, reports etc. (or providing solution for copying), copying programs/ code, collaboration and taking help when disallowed, cheating or providing help in exams, proxy attendance, changing answer sheets after submission, etc., may also lead to disciplinary action against a student. All cases of indiscipline shall be referred to the Disciplinary Committee, comprising at least three faculty members and two non-voting student representatives, except some cases of cheating where the course instructor can take suitable action. A student, however, can appeal against the decision of the instructor to the Disciplinary Committee.
+Honor Code
+Students are required to sign an honour code requiring them to pledge that they will act with honesty and integrity in academic work, and maintain and support the discipline of the Institute, among other things. The code is appended to the end of this handbook (Appendix-II).
+  34
+
+IT Policy
+Students with authorized accounts may use the computing, networking, and other IT facilities for academic purposes, official Institute business, and for personal purposes so long as such use does not violate any law or any Institute policy. Users are expected to respect the privacy of other users and they may not allow any other person to use their password or share their account. IT Policy is appended to the end of this handbook (Appendix-III)
+ 35
+
+  Student Governance and Employment
+ 
+IIIT Delhi supports two active student bodies, namely Student Council and Student Senate. The Student Council gives the elected Student Representatives a chance to articulate their views and ideas in all student-related matters of the institute along with academic and extra-curricular activities within the context of the institute. The Student Senate focuses on the academic issues being faced by students and voices the concerns to the Institute’s authorities responsible for the same. The student charter containing the model code of conduct is appended to the end of this document (Appendix-V).
+Student Council
+The Student Council (SC) has two (or three) representatives from each branch for every UG and PG batch who are elected every year. Once elected the representatives elect a secretary and a treasurer who are members of the council. The SC then proceeds to appoint a cultural coordinator, a sports coordinator and a technical coordinator. These coordinators are responsible for running various extra-curricular activities in the campus.
+The SC meets regularly to discuss various student activities and issues. Along with designing the non-academic calendar of the institute in consultation with the Dean of Student Affairs, the Student Council manages existing clubs through budgets and annual reports. It also decides which clubs to start, after reviewing the necessary applications.
+Objectives of the Student Council:
+• to safeguard and promote academic interests of the students
+• to advise the UGC and council - and to that extent influence academic policy
+• to maintain and assist active engagement for students in academics
+  37
+
+Student Senate
+The Student Senate (SS) has one elected student representative from each branch for every UG and PG batch. Once elected, just like the Council, the representatives elect a Secretary and a Senate coordinator. The Senate coordinator is responsible for representation of the Student Senate in the Student Council, the UGC and the Institute’s Senate. The Secretary is responsible for internal coordination within the Senate. The SS meets regularly to discuss various student activities and issues. It encourages any and all initiatives taken up by students towards creating a better and more involving academic atmosphere. It also manages the student self-help groups, also called Confabs, by allocating mentors and looking after its smooth functioning.
+Objectives of the Student Senate:
+• To provide advisory opinion to the institute in formulation of significant student related policies.
+• To facilitate communication between students, faculty, and administration of the institute.
+• To represent the interests and concerns of students to the institute.
+• To improve the quality of student life at the institute.
+  38
+
+Student Employment
+A UG student can be engaged on part-time basis for academic and IT-related work if he/she is a regular student of B.Tech., has CGPA of 8.0 or more and no disciplinary action is pending against him/her. If a student is selected for such a job, he/she will have to work minimum four hours a week and not more than eight hours a week. The student will be eligible to receive monthly payment of Rs 4,000, which may increase by Rs 500 after six months of employment depending on satisfactory report by the faculty in-charge.
+ 39
+
+  Anit-Sexual Harassment Committee
+ 
+IIIT-D has constituted an Anti-Sexual Harassment Committee, whose main objectives are to ensure a harassment-free environment for all those who are studying or working in the institute, and to address any harassment complaint. The committee consists of a few male and female faculty members from the Institute as well as an external counsellor.
+  41
+
+  Grievance Redressal
+ 
+Students may approach different people for different types of grievances. Below are various levels for addressing the issues. In case the issue remains uresolved at the first level or the issue is due to the person at the first level, student may go to the second level and further. If a student is still not satisfied, he/she may contact the Director.
+Grievance
+Course Related Academics Related
+Hostels/ Facilities related
+Sports/ Student Life Mess and Canteen Ragging
+Sexual Harassment
+First Level
+Instructor
+AM/DM Academics
+AM/DM Student Affairs
+AM/DM Student Affairs
+AM/DM Student Affairs
+AM/DM Student Affairs
+Second Level Third Level
+UGC/PGC Chair DoAA
+Manager DoAA (Academics)
+Anti-sexual harassment committee
+GM(FMS) DOSA DOSA DOSA
+Registrar
+ 43
+
+  Do’s and Don’ts
+ 
+Do's
+attend opportunity to settle in early, become comfortable
+with their surroundings, and meet new friends.
+Meet new people
+Don’t be afraid to talk to the person sitting next to you in class. Also, explore all the new cultures brought together on the college campus.
+Get involved
+Campus life is about trying new things. Get involved with different clubs and activities that interest you.
+Attend classes regularly
+Take your education seriously and make it your goal to attend classes regularly.
+Go to a sporting event
+Occasional sporting events are a fun part of the campus experience. It’s also a great way to feel connected with other students.
+Stay healthy
+Eat healthy food and find time to sleep.
+Attend Induction cum Orientation Programme
+The induction cum Orientation for new students is a must-
+Don’ts
+work done. Partying in moderation is okay.
+Smoking/Consumption of Alchohol
+Smoking and consumption of alcohol is strictly prohibited on the campus.
+Damaging institute’s property
+The institute’s buildings are under CCTV surveillance, and any damage caused to its property will be charged from those responsible in addition to disciplinary actions.
+Get caught up in the party scene
+Don’t party everyday as it may keep you from getting your
+ 45
+
+  Useful Information
+ 
+How to reach IIIT Delhi from the airport (domestic and international)?
+You may hire a taxi from the Airport. There is a pre-paid taxi counter inside the airport. The travel time from the airport is approximately 45-50 min.
+How to reach IIIT Delhi from the New Delhi Railway Station?
+You may hire a taxi from the railway station. The travel time from the railway station is approximately 40-45 min. You may use Metro service, which you will have to change at Central Secretariat and take the line going towards Badarpur and finally get down at Govindpuri Metro station or Okhla Metri station.
+How to open a Bank Account?
+The HDFC representative comes to the institute’s Academic Building at the start of the session and facilitates opening of bank accounts. The Accounts Section will send email to all fresh students and help in opening their bank accounts. The bank is located in Okhla Industrial Area, Phase-3.(Phone No. 42299618/41699422).
+Where can I get information about courses being offered?
+You can get the basic information from https://iiitd.ac.in/academics/courses
+Who do I meet for Academics related queries?
+For any queries regarding academics or courses you may meet Academic Section.
+Who do I meet for Identity Card queries?
+For any queries regarding I Card, you may approach Academic Section.
+Whom to contact for Hostel-related problems?
+In case of any problem related to the hostels, you may meet caretaker of the hostel, AM/JM (Students Affairs), GM (FMS)
+Whom to contact for NOC regarding internship?
+DGM (Training & Placements), B wing, first floor, Academic Block.
+Whom to contact for E-mail and other IT-related services?
+Sr. Manager/AM in Server Room on the first floor of the Academic building.
+Whom to contact for lost/found property?
+FMS division in the Service block may be contacted in this connection.
+Any other query, not specified above?
+Contact Academic Section.
+ 47
+
+  Advice from Seniors
+ 
+Planning Your Courses
+IIIT-Delhi currently offers three different career which a student can pursue. The list of all options offered is given below:
+Engineering Career
+• Most sought after attributes for an engineering career are problem solving capabilities, learnability, understanding and effective use of technology and techniques, etc. For such a student, some suggestions are:
+• Ensure that your basics are strong, particularly in courses that are pre- requisites for advanced courses (e.g. DSA, Algorithms, OS in CSE; S&S, Circuits, ELD, IE, F&W, DCS, Math, IP, DSA in ECE). Ensure that you learn these well and do the assignments and projects in these courses. Those who want to be in analytics of any kind should note that while PS does not form a pre- requisite to many courses, its understanding is very important for such jobs.
+• Select electives that strengthen your ability for problem solving and make you learn new techniques and technologies and apply them. So, courses with programming assignments and/or projects are helpful including “conceptual” courses like advanced algorithms, optimization, etc). In addition, ECE students should try to participate in labs/engineering design/ hardware design related projects to have a good hands-on experience
+• Instead of minimum two electives per semester, do three CSE/ECE/Maths electives in your 3rd and 4th years.
+• Do an IP and BTP in engineering category.
+• Do an internship in which you are required to build systems, develop applications, etc. This will strengthen your capabilities, as well as provide an opportunity to learn new things. An internship in a start up can really be very helpful.
+• Participate in engineering type contests– programming, prototype development, etc, and follow blogs, search the internet, etc to go beyond the courses.
+• You do not have to necessarily have a high CGPA– your skills and capabilities matter a lot more.
+ 49
+
+Research Career
+Besides problem solving capabilities, this career will also require strong theoretical, conceptual, mathematical foundations, as well as a decent CGPA. Hence a good balance between them will be needed. Usually a post graduate degree will be required if you want to pursue research.
+• Build solid foundations by deeply understanding the core courses – these will also build good engineering skills.
+• Build strong conceptual/theoretical foundations– take courses like DM, DSA, Math 1 and 2 seriously, and take some electives that are theory focused. For CSE - TOC, advanced algorithm courses, logic, advance theory courses, more Math courses like Number theory. For ECE - SS, LC, IE etc. along with some electives like Digital VLSI Design, Wireless System Implementation, RF Circuit design, Analog CMOS design, DSP, VLSI Digital Design, Wireless Networks, Digital Hardware Design AELD, Computer Architecture.
+• Do UR and BTP in Research Category.
+• Take some course on Internet which align with your interest.
+• Do your internship in a research group and try to publish (or at least submit) a paper in a good quality international conference/journal.
+• A high CGPA is highly desirable.
+Entrepreneurship Career
+In this career you may do your startup, either immediately after finishing your degree, or after gaining some years of experience. Most likely your startup will be technology enabled, or may be in technology itself. Hence, strong technology skills are necessary.
+• First two points of Engineering Career apply – you need to have strong problem solving skills and foundations for those
+• Take the domain study course in summer and do it in some domain which interests you and where you can identify opportunities for proposing new solutions.
+• Consider doing some social entrepreneurship during your CW – develop some project with some friends and execute it, perhaps with some NGO
+• Do a variety of courses as open electives in 3rd and 4th year to help you understand other areas where IT based solutions provide opportunities
+• Do the ENT courses/stream in your 3rd year
+ 50
+
+• Do some IS/IP in which you solve some problem of some group of people; Do your BTP in Entrepreneurship Category
+• Do internship in a startup
+• In courses that have projects, find problems from real world / experience, so you understand pain points of some group of stakeholders and try to solve them in your project.
+• Take initiatives by contributing to student governance, institute initiatives, etc
+Management Career
+Get Into Management
+This is effectively same as the “engineering career” route. After being an engineer for a few years, one can move into management through technical management route (which happens naturally), or doing an Executive MBA, or
+Do MBA After BTech
+As you cannot be sure that you will get admission in some good MBA, perhaps a sound strategy may be to plan for route (iii), and then see how things work out. By the way, general MBA market is in decline – only MBAs from good quality institutions land good opportunities.
+Get Into Some Non-Tech Job
+First a clarification – most of the jobs will still tap on the technical strength of the student to provide consultancy/solutions, though the jobs may require more diverse skills also. Problem solving skills will still be highly valued. Assessment for such jobs will often be with respect to your program, and other general skills like team work, communication etc. – other skills needed for consultancy etc, are likely to be taught on job.
+  51
+
+Effective Study Habits
+Most students want to do well in their studies – they want to learn, get good grades/marks, and do well in opportunities that good education can provide. In College life, besides studies, self growth is also an important goal for students. Therefore they need to effectively balance the two goals, which often conflict. In this pursuit, effective study habits can be very useful. They can help to learn effectively and efficiently, thus leaving sufficient time for other activities in life without compromising your academics. However, we have realized that many students are not clear on how to study effectively.
+There is literature on this subject available – indeed there is a full book on it (multiple copies of which are in IIIT-D library). However, students often think these are too idealized or impractical, or that they do not apply to their environment or situation.
+To better understand what works well in an environment like that of IIIT-Delhi, one of our graduating students (Digvijay Singh) interacted with a set of students from his batch who were known to have good understanding of various subjects, who we will refer to as effective students (this set of students we determined not by grades but by their performance in interviews and exams conducted by best companies that visited us and general input from faculty and students about their understanding, knowledge, skills.) We further validated the outcome of this study by interacting with a set of students of the current batch who have been doing well. It should be noted that not all of them are in the high CGPA category – many of them are below 8.0. It should be pointed out that this is not a statistically and scientifically rigorous study. Also, the habits mentioned here are the common ones, which most effective students we talked to followed. It does not mean that these are the only methods. However, I believe if these practices are sound and if students follow these, they can expect to be effective in their learning.
+The three main effective study practices that emerged are:
+Lectures
+Attending lectures regularly and taking notes in them, even if the lectures are not very exciting/ engaging, is a practice most effective students followed. This makes sense, students who do not follow this in the hope that they will “make up” for the lectures they miss, generally do not end up “making up”, and soon find themselves lost with too much to catch up. And missing lectures can easily become a habit, which is clearly to be avoided.
+ 52
+
+The two aspect of this practice are
+(i) attend the lectures,
+(ii) make notes in the lectures – not copy what the faculty is writing, but making notes in your own language. The second point is important – copying from the board/slide is a passive act which does not help in learning, but making notes in your own words is an active learning task, which engages the student and helps in learning. Paying attention in lectures actually helps save time – a student is likely to take much more time to understand and learn the topic by him/herself, if he/she does not attend the lecture, or is inattentive.
+Assignments
+Do the assignments yourself – most effective students did most of the assignments themselves, even if it took them more time or even if they were not able to complete in time. While lectures introduce the topics and concepts, the real learning and skill building of a student happens during assignments – this is where the students practices and tries to apply the concept/method. So, without doing assignments yourself, there can be really no learning. It should be noticed that taking help (not copying) from friends in assignments is fine, particularly when one is stuck. Indeed taking and giving help in form of discussions, explanations, guiding is a good way of learning.
+Weekly Revision/ Sync-Up
+All effective students have some method of ensuring that they have revised the material covered in the previous week or so, and that they prepared for the next week’s lectures and work. This practice I am calling weekly sync-up (even though students might be practicing this over somewhat longer periods.) Some revise regularly, some do revision with the assignment, some during the weekends, etc., but one common theme is that they sync-up regularly and ensure that they are not behind or lost, as they realize that if they continue while being lost, they will not recover. (One student said that if he could not follow two lectures well, it was a big warning sign and he would put extra work to catch up.) This practice ensures that even if they missed a lecture/ assignment, they make up for it and do not fall behind. Without this practice, there is a real risk that a student can fall behind so much that it will be very hard to catch up,.... In a semester of 4 months with a student doing 5 courses, one simply can’t really afford to fall behind too much! This can be viewed as the LAW for effective studying. Follow the LAW, with suitable enhancements/ modifications to suit your style, and the chances are that you will become an effective learner, and derive the benefits that come from that.
+ 53
+
+ There are some other practices which some effective students also used:
+Prioritising Work
+When there are many tasks from multiple courses, as well as from other activities, there will clashing deadlines. Prioritising will clearly be important in such a situation to achieve the most in the limited time. As one student said: “In such a scenario, life becomes a lot easier when you manually set down targets to be achieved by what deadline (which maybe before/ same day as your submission deadlines). Use sticky notes as gentle reminders to yourself so you can use your time wisely when brunt of work is more.”
+Group Study
+Many prefer individual study
+Group and Individual Projects
+As said by one student: “While it is good to do projects in team to learn teamwork and leadership qualities, I used to push myself and sometimes go forth with individual projects. Undoubtedly, it takes more effort and time, but it boosted my confidence in my own abilities to handle projects single-handedly and made me more self-reliant and self-sufficient.”
+Help other students
+Explaintothemas explaining helps them understand better (my note: by discussing/clarifying you are helping your friend, but by providing your assignment to your friends for copying you are actually hurting them as you are discouraging them to learn, besides taking them the slippery slope of using unfair means.)
+ 54
+
+Take help from friends for understanding
+Most students indicated that face-to-face discussion with friends was the first and most common approach they used for clarifying doubts/material. If this did not work then they will go to discussion forums, instructor.
+Academics gets the first priority
+This is more a value statement but was commonly echoed by most of the students. While they all engaged in other activities (most of them are quite active in clubs, events, etc., they are clear that academics get the highest priority
+Besides these practices, there is one attitude/trait I would like to highlight, which I have seen in many students who have done well in whatever they do after college education – and that is curiosity and initiative to go beyond the courses. Many effective students engage in some technical activities that they do which are not needed for their courses – i.e. they take the initiative to go beyond the courses. Examples of these initiatives can be: participating in competitive programming, participating in technical clubs, learning on your own about topics that interest you, listening to some technical lectures on YouTube/Coursera/ EdX, trying out some concepts, learning some programming language on your own, teaching students who are facing challenges in their courses (teaching, it is well known and established, is the most effective way to learn – teaching to someone else truly clarifies the topic in one’s own mind) etc. I believe that those students who are ambitious and want to reach higher in life, developing this trait/ style is absolutely essential.
+I hope the students will devise their own methods for being effective students using the LAW, and going beyond. I hope this little study will be helpful to them in devising their own strategies.
+  55
+
+Time Management
+At IIIT-Delhi, the academic work load is on the heavier side. At the same time there are opportunities in the Institute and outside for pursuing non-academic interests, which are important to most students. Both these interests help in shaping up a good career. It is important to learn how to balance these two interests such that we students can pursue our non-academic interests without hurting our academics. This note discusses this – it is written by some graduating students from IIIT-Delhi, based on their experience at IIIT-Delhi in the four years they were here.
+Prioritizing
+When it’s about balancing academic and non academic interests, it all comes down to being a good time manager. There is a lot more time with us than we think – even if we take out 12 hours for sleeping, food, commuting, etc, we still have 12 hours left every day, which is 84 hours per week. The problem is we may not be making the best use of it. Prioritizing is very important. First and foremost, we need to put our priorities right. We need to see what is important to us in the short and long term and devote time accordingly. There is no point in devoting a lot of time on things that don’t mean much. Prioritizing comes easily when based on what we want to do but the hard part is prioritizing on the basis of what we ought to do. The crack lies in realizing the difference. We should try and finish off the tasks that are more important first. A simple example would be; spending some time to do our assignment before writing an email for a club activity, and after doing both, should hanging out and spending some time with friends come.
+Plan
+“Take care of the minutes and the hours will take care of you.”
+Rather than using the cliché: “We should not waste time”, we should rather use: “We should judiciously use time”. It is as simple as that. We should make good use of the time. We all have some interests that are intensive on our mind and body and then there are some that are relaxing. We should plan our day and week so that they are nicely Interleaved to ensure that we are in a good state mentally and physically at all times. This will massively boost our efficiency and we’ll be able to work as well as enjoy a lot more. Using a productivity system like Kanban, GTD, Pomodoro or Kaizen, for managing time and tasks, could also be very helpful. Applications and tools that support these systems are available.
+ 56
+
+Applying them in our day to day works is a good idea. Also, everyone has their own interesting ways of managing time, so we need to spend time to find our own fix and figure out what works best for us.
+Self Belief
+Last but not the least; we need to believe we can manage well. We shouldn’t just get so much stuck up in planning and time management that everything starts ending there. It’s good to have a plan, but it must be a flexible and we should be ready for all the challenges. If the only thing that we take away out of our B.Tech is to manage our time efficiently, we’ll be a success no matter what
+How much effort should I put?
+• Give time to academics as per the institute’s guidelines which say 10 hours outside class per course per week. We should consider our non academic interest as 6th course and schedule its 10 hrs too. Planning and managing 60 hrs in a week out of 84 is doable. Keeping up to it and following it religiously is the challenge.
+• Give academics at least 3 hours a day exclusive of the classes. The key is to find 3 hours a day such that we are purely studying in those 3 hours. No distractions at all. That way we will have minimum 5 hours a day for everything else apart from food breaks and classes. We may utilize 2 hours out of those for relaxing, hanging around and socializing and we will still be left with 3 more hours. We may utilize those 3 hours to do something that we love.
+B.Tech is not My Cup of Tea
+First of all, it is very normal and there is nothing to panic. However it is important to understand the depth and authenticity of the feeling, don’t give too much importance to the feeling right away. Taking a break from all the coursework for a day or two may work. You should not run yourselves into the ground. It’s important to realize that B.Tech is not an end in itself. Our life goal is not to do a B.Tech. There is always a bigger picture. The earlier we understand the better it is. You need to look at that bigger picture (your dreams and aspirations) and analyze for yourselves how important or not so important B.Tech is in getting there. Is it worth the time and effort that you are putting in? Maybe you are trying too hard. You may go a little easy for a while.
+ 57
+
+Another very important thing is to know what is your cup of tea if it is not B.Tech? Do you know it? Maybe you can spend some time finding out that. The most amazing thing here at IIIT-Delhi is the innovative approach in the air. You have an idea; you can talk to a professor and do something about it. You are not finding the regular courses interesting enough; you can take up Independent Studies and Independent Projects. That’s the beauty here.
+“I will quote my personal example here. I don’t know where I will land up five year down the line, and unfortunately B.Tech doesn’t seem to fascinate me the way I thought it would. So, I thought, okay, let me try and explore interesting areas and find out. One of the areas that I found interesting was “Sports Engineering”. I have a passion for sports and I am doing Engineering, so it’s worth giving a shot. So I went to a professor and took up an Independent Study to understand Sports Engineering. The professor supported the idea and it turned out well for me.”
+The point is, it is okay to have feeling and doubts about B.Tech, but they should not use it as an excuse to crib about the situation. You should always put in effort and think beyond. Yes, the picture is indeed much larger than a B.Tech degree. Engineering can be applied in all spheres of life. It all depends on you. It is yours to define and yours to apply.
+If coping with a course is getting too hard?
+What do you do if you are not able to handle all the courses properly – perhaps due to lack of time or other interests, or simply because you take more time for a topic?
+• Assume 10 hours for a course are more than enough. Complete the assignments soon and pay attention in classes, they won’t feel a burden. Make sure you are at your attentive best most of the time. This can come with following good schedules and taking breaks when your concentration starts to dwindle. This will help you finish tasks faster and give you more time for pending tasks.
+• Prioritizing can help – identify the courses that are important for you, and those that are less important. Ensure that the more important ones get good effort, while the less important ones get at least sufficient effort for you to pass.
+• Do some credits in summer whenever the opportunity arises. This will allow you to reduce your courses to 4 per semester, at least in the final years.
+• Just keep trying, and you’ll start loving the work load.
+Manage the time, crib about work load. Study effectively in the end.
+ 58
+
+ Advice for “difficult core-courses”
+• There is no point in running away from them unless you’re fine with a poor grade (and little to no learning in a core CSE/ECE area). You’ve got to put in time and effort on anything that you believe is worthwhile, but difficult. There are plenty of resources available online. Personally, most students have found them very helpful. Then, make sure you give the assignments your best (and honest) shot. It can’t be stressed how important this is. Outside of the classroom, this is where most of the learning will happen. Discussing the problems with your peers and the TAs is immensely helpful too. Tutorials are a good place to hold such discussions. However, make sure you’re not cheating by copying from anyone/anywhere.
+• It about putting in quality time on the subject. The initial learning curve can be steep at times, but you have got to make it simply because it is so very important. There is a reason why these have been made core-courses.
+• Attend classes. Use the office hours effectively and bug the professors till the time the concept is clear to you.
+• Read the text book for the course. They are beautiful and very helpful. Moreover attend the classes, stay up to date and code regularly. Coding is something that will open up your logics and will take you through courses like ADA and DSA.
+• Also, these courses are important for placements. Instead of being focused on just scoring good grades, try to get good knowledge of these topics. There are many topics of these subjects which are not covered during course. Explore and learn them yourself instead of relying on just the course material.
+ 59
+
+Facing difficulties in a particular course?
+• Try some alternate resources - online video lectures, some other notes/books. It can often happen that you are just not very receptive to how the course is being taught. A change can often trigger interest and understanding. You need to find what is best for you. Secondly, seek advice from your seniors. Many of them might have gone through the same phase and would be able to offer insights.
+• Nothing is difficult until you put your efforts. TAs, instructors and seniors are always ready to help. Self study is must. Talk to the professor, they help always.
+What Should I Do in the First year, to Do Well in Subsequent Years?
+• Start off to develop your basics well and keep improving. Courses like Introduction to Programming, DSA, Probability, and Algebra need better and fine understanding since other courses are based on them. The sooner you realize and try to accomplish this, the more it would help.
+• Make sure that programming becomes second nature to you. You can not spend 2 or 3 years learning how to code. If you do spend more than a year, you will end up missing out on other things that are being taught because your time will go in dealing with programming issues. Practice as much as you can. You need to get to the stage where you can easily translate your thoughts into code. You don’t need to target tough algorithmic problems.
+  60
+
+Target problems for which you know the solution - sorting, searching, and traversals. You need to acquire the ability to effortlessly write code for a solution that you know. You will quickly realize that most of the time, you’ll have to write code for known (and already solved) problems rather than coming up with a new solution by yourself. Once you are good with programming, you’ll be able to do well in a lot of areas in the latter years of your B.Tech.
+• Go and code on HackerRank (www.hackerrank. com) as much as you can to strengthen your programming skills.
+Once you are a good coder life will be comfortable in IIIT-D.
+All the best
+ 61
+
+  Important Phone Numbers
+ 
+Dean (Academic)
+Samaresh Chatterji (487)
+Chairman, PGC
+Rajiv Raman (573)
+Chairperson, UGC
+Anubha Gupta (428)
+Registrar
+B. Chandrasekar (419)
+ASSOCIATE DEAN OF STUDENTS AFFAIRS
+Vikram Goyal (474)
+Student Affairs
+Ravi Bhasin (504), Jahnvee Tripathi (421)
+Academic Section
+Sheetu Ahuja (416), Anshu Dureja (507), Prachi Mukherjee (545)
+Accounts Section
+Amit Shankdhar (429)
+Central Library
+Rajendra Singh (510)
+Facilities Management, Warden-IN-Charge
+Arun Verma (562)
+IT Help Desk
+(576)
+Security
+9868244868 (592)
+The overall institute directory is available on website https://www.iiitd. ac.in/directory
+ 63
+
+  Appendices
+ 
+I - Parking Policy
+The vehicles entering the Campus shall do so from Gate No 1. Resident students are not allowed to park or use their personal vehicles inside the campus. The vehicles entering the Campus shall keep themselves to the left of the road. The campus is a No Horn Zone and a maximum speed of 20 km/hr is permissible. All day-scholars using their vehicles will have to display the car sticker prominently, while visitors’ vehicles shall do the necessary registration at the main gate at entry. The designated parking area for day-scholars is near the hostel. However due to construction this parking has been shifted to parking zone near academic block. Any vehicle reported by Faculty/ Officers/ SC/ Security for violation will be fined Rs 200/- first time, second violation will result in withdrawal of car sticker for one month and an entry into the personal record of the individual. The case will be referred to the disciplinary committee for any subsequent violations.
+Students can collect the vehicle parking sticker from FMS. The sticker will be issued on production of the copy of the RC book as well as the driving license. Please note that no overnight parking is allowed inside the campus.
+II - Honor Code
+I, _________________________, Roll No: ____________, do hereby declare that as a
+student in IIIT Delhi:
+• I will act with honesty and integrity at all times in all my academic work, including home assignments, quizzes, tests, projects, reports, presentations, and exams.
+• I will maintain and support the discipline of the Institute and act in a manner that fosters discipline, academic pursuit, and self-development.
+• I will use the Institute resources judiciously and responsibly.
+• I will help ensure that others also uphold the honour code. I accept that any act of mine that can be considered to be the violation of the Honour Code will invite disciplinary action, including expulsion from the Institute.
+Date:________________ Signature:__________________ Name:__________________ Roll No:__________________
+ 65
+
+III - IT Policy
+Students using IIIT Delhi computing, networking and IT facilities are expected to
+abide by the following rules:
+1. Students with authorized accounts may use the computing, networking, and other IT facilities for academic purposes, official Institute business, and for personal purposes so long as such use does not violate any law or any Institute policy.
+2. Users are expected to respect the privacy of other users and they may not allow any other person to use their password or share their account.
+3. Chain emails or mass emails or commercial advertising are not allowed without permission.
+4. Users are expected to take proper care of equipment and report any malfunction to the staff on duty or to the in-charge of the facility. Users should not attempt to move, repair, reconfigure, modify, or attach external devices to the systems.
+5. No food or drink is permitted in the laboratories. Also making noise either through games/music/movies or talking and/ or singing loudly (the list is not exhaustive) is prohibited.
+6. Violations of policy will be treated as academic misconduct, misdemeanour, or indiscipline as appropriate. Depending upon the nature of the violation, the institute authorities may take an action by issuing a warning through disabling the account. In extreme cases, the account may be completely deleted and/ or the user prohibited access to IT facilities at IIIT Delhi, and/ or reported to the Disciplinary Action Committee.
+7. The policy may change as and when it is considered appropriate and new policies or the changes in policy will take effect immediately after a brief announcement by any means, e-mail, printed notices, or through the news groups.
+I,__________________________________, Roll No: _________________, do hereby declare that as a student in IIIT Delhi will abide by the above-mentioned rules. I accept that any act of mine that can be considered to be the violation of the policy will be dealt with as mentioned in rule #6.
+Date: ___________________ SIgnature: ___________________
+ 66
+
+IV - Policy Where Student Leaves the Institute
+If a student is graduating from the institute, his/ her domain login will be deactivated soon after the convocation is over but their email id will be retained as part of the alumni database. If a student leaves the program without completing it, his/her email id will also be deactivated. All logins for Internet access (mobile, laptop, PDA etc) will be deactivated from the date of leaving the Institute, that is convocation day.
+At the time of giving no dues, graduating students will be advised by the IT department to take complete backup of their data before the convocation day. Also students are advised enable mail forwarding from IIIT Delhi email to their active email ids.
+V - Student Charter Model Code of Conduct
+Students of IIIT Delhi must pledge that during their stay in the Institute they will abide by the following points of the Student Charter and will honour it in the best of their knowledge. They will
+• Accept responsibility of their own learning and make successful learning their priority
+• Read, accept and comply with all the College Rules and Regulations that are relevant to them.
+• Respect the Institute’s environment, equipment and any other Institute property.
+• Avoid the use of language that will offend others, use a vocabulary and style befitting their background and education and carry themselves with dignity at all times.
+• Maintain good standards of behaviour when engaged in Institute activities including avoiding dangerous or reckless behaviour.
+• Display suitable behaviour to facilitate smooth conduct of classes and do all that is needed to facilitate their own learning and that of others.
+• Respect fellow being’s privacy.
+ 67
+
+• Carry student ID card all times and show it when asked by a member of staff.
+• Comply with all reasonable requests from Institute staff.
+• Ensure that mobile phones are in silent mode before entering any teaching or academic space.
+• Treat everyone with respect regardless of age, gender, disability, ethnicity, sexual orientation and religion or belief.
+• Accept any reasonable action taken by the Institute which results from non- fulfilment of these expectations
+• Maintain decorum and silence in academic/work areas of the institute and work in a manner that doesn’t interfere with anyone else’s work
+ 68
+
+ DISCLAIMER
+This handbook is a compilation of information from various sources like the institute’s website, relevant departments and government portals, which is to the best of our knowledge correct at the time of printing. However, no liability can be accepted for any errors or omissions, which might have occurred inadvertently within it.
+ Okhla Phase-III, ND -110020 (Near Govindpuri Metro Station)
+ 69
+
+  
