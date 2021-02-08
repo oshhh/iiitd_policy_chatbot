@@ -483,6 +483,9 @@ def get_type(entity):
     # admissions
     if 'admission' in words:
         return 'admission:' + entity, 'admission'
+    # graduation
+    if 'graduat' in entity:
+        return 'graduation:' + entity, 'graduation'
     # evaluation
     if 'test' in words:
         return 'evaluation:test', 'evaluation'
@@ -501,6 +504,12 @@ def get_type(entity):
         return 'holiday:' + entity, 'holiday'
     # semester
     if 'semester' in words or 'term' in words:
+        if 'monsoon' in words:
+            return 'semester:monsoon', 'semester'
+        elif 'winter' in words:
+            return 'semester:winter', 'semester'
+        elif 'summer' in words:
+            return 'semester:summer', 'semester'
         return 'semester:' + entity, 'semester'
     # fees and charges
     if 'fee' in words:
@@ -513,10 +522,10 @@ def get_type(entity):
 
 def entity_canonicalisation(entity):
     entity = entity.lower()
-    prefix = entity
+    prefix = '##NO_MATCH##'
     tokens = []
     for token in nlp(entity):
-        if token.pos_ == 'DET': 
+        if token.pos_ == 'DET' or token.pos_ == 'PRON': 
             continue
         if token.tag_ in {"NNS", "NNPS"}:
             tokens.append(token.lemma_)
@@ -524,7 +533,7 @@ def entity_canonicalisation(entity):
             tokens.append(token.text)
     if tokens:
         entity, prefix = get_type(' '.join(tokens))
-    return entity, prefix
+    return entity, prefix, tokens
 
 
 def canonicalise(extractions):
@@ -574,8 +583,8 @@ def find_keywords(query):
             else:
                 break
         if keyword:
-            keyword, prefix = entity_canonicalisation(' '.join(keyword))
-            keywords.append([keyword, prefix])
+            keyword, prefix, words = entity_canonicalisation(' '.join(keyword))
+            keywords.append([keyword, prefix, words])
         keyword = []
     return keywords
 
