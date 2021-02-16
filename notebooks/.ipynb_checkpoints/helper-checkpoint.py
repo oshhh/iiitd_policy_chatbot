@@ -1,5 +1,4 @@
 import json
-import csv
 from pdf2docx import parse
 from docx import Document
 import networkx as nx
@@ -37,13 +36,6 @@ def read_json(filename):
 def write_json(data, filename):
     with open(filename, 'w') as file:
         json.dump(data, file)
-
-def write_csv(data, filename):
-    with open(filename, 'w') as file:
-        writer = csv.writer(file)
-        for row in data:
-            writer.writerow(row)
-
 
 sentence_1 = '(:?(?:(?:((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*)?)*),)?(?:N+(?:[C,]+N+)*)(?:((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*))*)(?:[VA]*V+[VA]*(?:[C,]+[VA]*V+[VA]*)*)(?:N+(?:[C,]+N+)*)?,?(?:((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*))*))'
 sentence_with_groups = '(?P<sentence>(?:(?P<modifiers0>((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*)?)*),)?(?P<subject>N+(?:[C,]+N+)*)(?P<modifiers1>((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*))*)(?P<relation>[VA]*V+[VA]*(?:[C,]+[VA]*V+[VA]*)*)(?P<object>N+(?:[C,]+N+)*)?,?(?P<modifiers2>((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*))*))'
