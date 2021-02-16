@@ -1,5 +1,4 @@
 import json
-import csv
 from pdf2docx import parse
 from docx import Document
 import networkx as nx
@@ -38,13 +37,6 @@ def write_json(data, filename):
     with open(filename, 'w') as file:
         json.dump(data, file)
 
-def write_csv(data, filename):
-    with open(filename, 'w') as file:
-        writer = csv.writer(file)
-        for row in data:
-            writer.writerow(row)
-
-
 sentence_1 = '(:?(?:(?:((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*)?)*),)?(?:N+(?:[C,]+N+)*)(?:((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*))*)(?:[VA]*V+[VA]*(?:[C,]+[VA]*V+[VA]*)*)(?:N+(?:[C,]+N+)*)?,?(?:((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*))*))'
 sentence_with_groups = '(?P<sentence>(?:(?P<modifiers0>((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*)?)*),)?(?P<subject>N+(?:[C,]+N+)*)(?P<modifiers1>((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*))*)(?P<relation>[VA]*V+[VA]*(?:[C,]+[VA]*V+[VA]*)*)(?P<object>N+(?:[C,]+N+)*)?,?(?P<modifiers2>((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*))*))'
 sentences_2_wo_groups = '(?:(?:((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*)?)*),)?(?:N+(?:[C,]+N+)*)(?:>(?:((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*))*)(?:[VA]*V+[VA]*(?:[C,]+[VA]*V+[VA]*)*)(?:N+(?:[C,]+N+)*)?(?:((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*))*))(?:(?:[C,](?:((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*))*)(?:[VA]*V+[VA]*(?:[C,]+[VA]*V+[VA]*)*)(?:N+(?:[C,]+N+)*)?(?:((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*))*))*)'
@@ -56,77 +48,31 @@ sentences_2 = '(?:(?P<modifiers0>((?:A+(?:[C,]+A+)*)(?:N+(?:[C,]+N+)*)?)*),)?(?P
 conditional_sentences_1 = 'I(?P<condition>' + sentences_1 + '|' + sentences_2_wo_groups + '),?(?P<statement>' + sentences_1 + '|' + sentences_2_wo_groups + ')'
 conditional_sentences_2 = '(?P<statement>' + sentences_1 + '|' + sentences_2_wo_groups + '),?I(?P<condition>' + sentences_1 + '|' + sentences_2_wo_groups + ')'
 
-regex_compiled = False
-re_sentences = None
-re_sentences2 = None
-re_conditional_sentences_1 = None
-re_conditional_sentences_2 = None
-re_sentence = None
-re_modifiers = None
-re_compound = None
-cse = None
-csam = None
-csd = None
-csss = None
-csb = None
-csai = None
-ece = None
-dosa = None
-doaa = None
-example = None
-number = None
-btech = None
 
-def compile_regex():
-    global regex_compiled
-    global re_sentences
-    global re_sentences2
-    global re_conditional_sentences_1
-    global re_conditional_sentences_2
-    global re_sentence
-    global re_modifiers
-    global re_compound
-    global cse
-    global csam
-    global csd
-    global csss
-    global csb
-    global csai
-    global ece
-    global dosa
-    global doaa
-    global example
-    global number
-    global btech
-    
-    if regex_compiled:
-        return
-    regex_compiled = True
-    re_sentences = re.compile(sentences_1)
-    re_sentences2 = re.compile(sentences_2)
-    re_conditional_sentences_1 = re.compile(conditional_sentences_1)
-    re_conditional_sentences_2 = re.compile(conditional_sentences_2)
+re_sentences = re.compile(sentences_1)
+re_sentences2 = re.compile(sentences_2)
+re_conditional_sentences_1 = re.compile(conditional_sentences_1)
+re_conditional_sentences_2 = re.compile(conditional_sentences_2)
 
-    re_sentence = re.compile(sentence_with_groups)
-    re_modifiers = re.compile('(?P<modifier>(?P<m_rel>A+(?:[C,]+A+)*)(?P<m_obj>N+(?:[C,]+N+)*))(?P<remaining>[C,]?(?:A+(?:[C,]+A+)*N+(?:[C,]+N+)*)*)')
-    re_compound = re.compile('(?P<first>[NVA]+)(?P<remaining>(?:[C,]+[NVA]+)*)')
+re_sentence = re.compile(sentence_with_groups)
+re_modifiers = re.compile('(?P<modifier>(?P<m_rel>A+(?:[C,]+A+)*)(?P<m_obj>N+(?:[C,]+N+)*))(?P<remaining>[C,]?(?:A+(?:[C,]+A+)*N+(?:[C,]+N+)*)*)')
+re_compound = re.compile('(?P<first>[NVA]+)(?P<remaining>(?:[C,]+[NVA]+)*)')
 
-    cse = re.compile('computer science and engineering', re.IGNORECASE)
-    csam = re.compile('computer science and applied mathematics', re.IGNORECASE)
-    csd = re.compile('computer science and design', re.IGNORECASE)
-    csss = re.compile('computer science and social sciences', re.IGNORECASE)
-    csb = re.compile('computer science and biosciences', re.IGNORECASE)
-    csai = re.compile('computer science and artificial intelligence', re.IGNORECASE)
-    ece = re.compile('electronics and communications engineering', re.IGNORECASE)
-    dosa = re.compile('dean of student affairs', re.IGNORECASE)
-    doaa = re.compile('dean of academic affairs', re.IGNORECASE)
+cse = re.compile('computer science and engineering', re.IGNORECASE)
+csam = re.compile('computer science and applied mathematics', re.IGNORECASE)
+csd = re.compile('computer science and design', re.IGNORECASE)
+csss = re.compile('computer science and social sciences', re.IGNORECASE)
+csb = re.compile('computer science and biosciences', re.IGNORECASE)
+csai = re.compile('computer science and artificial intelligence', re.IGNORECASE)
+ece = re.compile('electronics and communications engineering', re.IGNORECASE)
+dosa = re.compile('dean of student affairs', re.IGNORECASE)
+doaa = re.compile('dean of academic affairs', re.IGNORECASE)
 
-    example = re.compile('e\.g\.', re.IGNORECASE)
-    number = re.compile('no\.', re.IGNORECASE)
-    btech = re.compile('b[\.]?tech[\.]?', re.IGNORECASE)
+example = re.compile('e\.g\.', re.IGNORECASE)
+number = re.compile('no\.', re.IGNORECASE)
+btech = re.compile('b\.tech\.', re.IGNORECASE)
 
 def preprocess_paragraph(text):
-    compile_regex()
     temp = ''
     for token in text.split():
         if token[:4] == 'http':
@@ -256,7 +202,6 @@ def get_sentence_structure(sentence):
 
     
 def extract(sentence):
-    compile_regex()
     # remove text in brackets
     preprocessed_sent = ''
     in_bracket = 0
@@ -614,23 +559,6 @@ def find_keywords(query):
             keywords.append((keyword, tags, words))
         keyword = []
     return keywords
-
-question_types = {
-    'when': 'datetime',
-    'where': 'location',
-    'who': 'person',
-    'how many': 'number',
-}
-
-def get_question_type(query):
-    global question_types
-    sentences = split_into_sentences(query)
-    q_types = []
-    for question in sentences:
-        for q_type in question_types:
-            if question.lower()[:len(q_type)] == q_type:
-                q_types.append(question_types[q_type])
-    return q_types
 
 def plot_graph(graph, filename):
     nx_graph = nx.DiGraph()
