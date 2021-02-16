@@ -12,6 +12,7 @@ mrc = None
 bert_model = None
 bert_tokenizer = None
 
+
 def init_kg():
     global driver
     driver = GraphDatabase.driver('neo4j://localhost:11003', auth=('chatbot', 'password'))
@@ -36,7 +37,7 @@ def shortlist_sentences(query):
 	start = time.time()
 
 	with driver.session() as session:
-		sentences = session.read_transaction(q_shortlist_sentences, query, 50)
+		sentences = session.read_transaction(q_shortlist_sentences, query, 20)
 
 	return sentences
 
@@ -83,18 +84,27 @@ def find_answer_from_bert(question, sentences):
 
 
 def q_shortlist_sentences(tx, query, top_k):
+    global question_types
+    
     keywords = [list(keyword) for keyword in find_keywords(query)]
     print(keywords)
-    weights = [2, 1, 1, 2, 1, 1, 1, 1]
+    
+    question_types = get_question_type(query)
+    print(question_types)
+    
+    keywords.append(['##NO_MATCH##', question_types, []])
+    
+    weights = [2, 1, 1, 2, 1, 1, 1, 1, 1]
     query = (
-        'with ' + str(keywords) + ' as keywords \n' +
+        'with ' + str(keywords) + ' as keywords, ' + str(question_types) + ' as answer_types \n' +
         'match (main_topic:Topic)<-[]-(p:Paragraph)-[]->(s:Sentence)-[*]->(sent_e:ExtEntity) \n' + 
+        'match path = (t:Topic)<-[:about_topic*1..2]-(p) \n' +
+        'match (tf:Sentence)-[*]->(sent_e) \n' +
+        'with keywords, answer_types, main_topic, p, s, collect([distinct sent_e, count(tf)]) as entities, collect(distinct [t, length(path)]) as topics \n' +
         'match (main_topic)<-[*]-(:Paragraph)-->(nbr_s:Sentence) \n' +
         'where abs(nbr_s.id - s.id) <= 2 \n' +
         'match (nbr_s)-[*]->(nbr_e:ExtEntity) \n' + 
-        'match path = (t:Topic)<-[:about_topic*1..2]-(p) \n' +
-        'with collect(distinct sent_e) as entities, collect(distinct nbr_e) as nbr_entities, collect(distinct [t, length(path)]) as topics, main_topic, s, keywords \n' + 
-        'with main_topic.text as topic, topics, s.id as s_id, s.text as sentence, reduce( \n' + 
+        'with keywords, answer_types, p, s, topics, entities, collect(distinct nbr_e) as nbr_entities, s.id as s_id, s.text as sentence, reduce( \n' + 
             'total = 0.0, keyword in keywords| \n' + 
             'total + reduce( \n' + 
                 'distance = 0.0, entity in entities | \n' + 
@@ -109,8 +119,8 @@ def q_shortlist_sentences(tx, query, top_k):
             'total + reduce( \n' + 
                 'jaccard = 0.0, entity in entities | \n' + 
                 'case \n' +
-                    'when size(apoc.coll.union(entity.tags, keyword[1])) > 0 and toFloat(size(apoc.coll.intersection(entity.tags, keyword[1]))) > jaccard * toFloat(size(apoc.coll.union(entity.tags, keyword[1]))) \n' + 
-                    'then toFloat(size(apoc.coll.intersection(entity.tags, keyword[1])))/toFloat(size(apoc.coll.union(entity.tags, keyword[1]))) \n' +
+                    'when toFloat(size(apoc.coll.intersection(entity.tags, keyword[1]))) > jaccard \n' + 
+                    'then toFloat(size(apoc.coll.intersection(entity.tags, keyword[1]))) \n' +
                     'else jaccard \n' +
                 'end \n' +
             ') \n' + 
@@ -119,8 +129,8 @@ def q_shortlist_sentences(tx, query, top_k):
             'total + reduce( \n' + 
                 'jaccard = 0.0, entity in entities | \n' + 
                 'case \n' +
-                    'when size(apoc.coll.union(entity.tokens, keyword[1])) > 0 and toFloat(size(apoc.coll.intersection(entity.tokens, keyword[1]))) > jaccard * toFloat(size(apoc.coll.union(entity.tokens, keyword[1]))) \n ' + 
-                    'then toFloat(size(apoc.coll.intersection(entity.tokens, keyword[1])))/toFloat(size(apoc.coll.union(entity.tokens, keyword[1]))) \n' +
+                    'when toFloat(size(apoc.coll.intersection(entity.tokens, keyword[1]))) > jaccard \n ' + 
+                    'then toFloat(size(apoc.coll.intersection(entity.tokens, keyword[1]))) \n' +
                     'else jaccard \n' +
                 'end \n' +
             ') \n' + 
@@ -139,8 +149,8 @@ def q_shortlist_sentences(tx, query, top_k):
             'total + reduce( \n' + 
                 'jaccard = 0.0, entity in entities | \n' + 
                 'case \n' +
-                    'when size(apoc.coll.union(entity.tags, keyword[1])) > 0 and toFloat(size(apoc.coll.intersection(entity.tags, keyword[1]))) > jaccard * size(apoc.coll.union(entity.tags, keyword[1])) \n' + 
-                    'then toFloat(size(apoc.coll.intersection(entity.tags, keyword[1])))/toFloat(size(apoc.coll.union(entity.tags, keyword[1]))) \n' +
+                    'when toFloat(size(apoc.coll.intersection(entity.tags, keyword[1]))) > jaccard \n' + 
+                    'then toFloat(size(apoc.coll.intersection(entity.tags, keyword[1]))) \n' +
                     'else jaccard \n' +
                 'end \n' +
             ') \n' + 
@@ -149,8 +159,8 @@ def q_shortlist_sentences(tx, query, top_k):
             'total + reduce( \n' + 
                 'jaccard = 0.0, entity in entities | \n' + 
                 'case \n' +
-                    'when size(apoc.coll.union(entity.tokens, keyword[1])) > 0 and toFloat(size(apoc.coll.intersection(entity.tokens, keyword[1]))) > jaccard * size(apoc.coll.union(entity.tokens, keyword[1])) \n' + 
-                    'then toFloat(size(apoc.coll.intersection(entity.tokens, keyword[1])))/toFloat(size(apoc.coll.union(entity.tokens, keyword[1]))) \n' +
+                    'when toFloat(size(apoc.coll.intersection(entity.tokens, keyword[1]))) > jaccard \n' + 
+                    'then toFloat(size(apoc.coll.intersection(entity.tokens, keyword[1]))) \n' +
                     'else jaccard \n' +
                 'end \n' +
             ') \n' + 
@@ -160,7 +170,7 @@ def q_shortlist_sentences(tx, query, top_k):
                 'topics_matched = 0.0, topic in topics | \n' +
                 'case \n' +
                 'when topic[1] = 1 then \n'
-                    'topics_matched + reduce( \n' +
+                    'topics_matched + apoc.coll.intersection(topic.tags, keyword[1]) + reduce( \n' +
                         'distance = 0.0, entity in topic[0].keywords | \n' + 
                         'case \n' + 
                             'when apoc.text.levenshteinDistance(entity, keyword[0])/toFloat(size(entity) + size(keyword[0])) <= 0.5 \n' + 
@@ -171,13 +181,13 @@ def q_shortlist_sentences(tx, query, top_k):
                 'else topics_matched \n' +
                 'end \n'
             ') \n' + 
-        ') as score_topic1, reduce( \n' +
+        ') as topic1, reduce( \n' +
             'total = 0.0, keyword in keywords| \n' + 
             'total + reduce( \n' + 
                 'topics_matched = 0.0, topic in topics | \n' +
                 'case \n' +
                 'when topic[1] = 2 then \n'
-                    'topics_matched + reduce( \n' +
+                    'topics_matched + apoc.coll.intersection(topic.tags, keyword[1]) + reduce( \n' +
                         'distance = 0.0, entity in topic[0].keywords | \n' + 
                         'case \n' + 
                             'when apoc.text.levenshteinDistance(entity, keyword[0])/toFloat(size(entity) + size(keyword[0])) <= 0.5 \n' + 
@@ -188,8 +198,21 @@ def q_shortlist_sentences(tx, query, top_k):
                 'else topics_matched \n' +
                 'end \n'
             ') \n' + 
-        ') as score_topic2 \n' +
-        'return s_id, sentence, topic, topics, sent_text, sent_tags, sent_tokens, nbr_text, nbr_tags, nbr_tokens, score_topic1, score_topic2'
+        ') as topic2, reduce( \n' +
+            'contains_answer_type = 0.0, type in answer_types | \n' +
+            'case \n' +
+                'when contains_answer_type = 0 and reduce( \n' +
+                        'contains_type = false, entity in entities | \n' +
+                        'case \n' +
+                            'when contains_type = 0 then (entity.tags contains type) \n' +
+                            'else contains_type \n' +
+                        'end \n' +
+                    ') \n'
+                'then 1.0 \n'
+                'else contains_answer_type \n' +
+            'end \n' +
+        ') as answer_type \n' +
+        'return s_id, sentence, topic, topics, sent_text, sent_tags, sent_tokens, nbr_text, nbr_tags, nbr_tokens, topic1, topic2, answer_type'
     )
 
     result = tx.run(query)
@@ -207,21 +230,22 @@ def q_shortlist_sentences(tx, query, top_k):
             'nbr_text': record['nbr_text'],
             'nbr_tags': record['nbr_tags'],
             'nbr_tokens': record['nbr_tokens'],
-            'score_topic1': record['score_topic1'],
-            'score_topic2': record['score_topic2']
+            'topic1': record['topic1'],
+            'topic2': record['topic2'],
+            'answer_type': record['answer_type']
         }
         if '.' not in sentence['sentence'][-2:]:
             sentence['sentence'] += '.'
         sentences.append(sentence)
 
     for sentence in sentences:
-        answers.append([sentence['sent_text'], sentence['sent_tags'], sentence['sent_tokens'], sentence['nbr_text'], sentence['nbr_tags'], sentence['nbr_tokens'], sentence['score_topic1'], sentence['score_topic2']])
-    
+        answers.append([sentence['sent_text'], sentence['sent_tags'], sentence['sent_tokens'], sentence['nbr_text'], sentence['nbr_tags'], sentence['nbr_tokens'], sentence['topic1'], sentence['topic2'], sentence['answer_type']])
+
     answers = np.array(answers)
-    mean = answers.mean(axis = 0).reshape((1, 8))
+    mean = answers.mean(axis = 0).reshape((1, 9))
     std = answers.std(axis = 0)
     if 0 not in std:
-       answers = (answers - mean)/std
+        answers = (answers - mean)/std
 
     for i in range(len(sentences)):
         sentences[i]['score'] = sum(answers[i][j] * weights[j] for j in range(len(answers[i])))
