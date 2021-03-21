@@ -122,18 +122,18 @@ def main():
 			  "when is the convocation held?"
 	]
 	for q in questions:
-	topAnswer = retreivePassage.most_similar(q, topn = 6)
-	# print(topAnswer)
-	sentence = ""
-	for i in topAnswer:
-	# print(i)
-	sentence += i + " "
-	ans = bertModel.evalu(q, sentence)
-	print(len(sentence.split()))
-	print("Q:",q)
-	print("Ans:",completeAnswer(ans["answer"], topAnswer))
-	# print(len(sentence.split()))
-	print("---------------------")
+		topAnswer = retreivePassage.most_similar(q, topn = 6)
+		# print(topAnswer)
+		sentence = ""
+		for i in topAnswer:
+		# print(i)
+		sentence += i + " "
+		ans = bertModel.evalu(q, sentence)
+		print(len(sentence.split()))
+		print("Q:",q)
+		print("Ans:",completeAnswer(ans["answer"], topAnswer))
+		# print(len(sentence.split()))
+		print("---------------------")
 
 if __name__ == '__main__':
 	main()
