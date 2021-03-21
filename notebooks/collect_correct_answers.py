@@ -16,12 +16,12 @@ for question in history:
 
 	answers = []
 	for s in range(len(sentences)):
-		answers.append([sentences[s]['sent_text'], sentences[s]['sent_tags'], sentences[s]['sent_tokens'], sentences[s]['nbr_text'], sentences[s]['nbr_tags'], sentences[s]['nbr_tokens'], sentences[s]['score_topic1'], sentences[s]['score_topic2']])
-		# print(s, ':', [round(val, 2) for val in answers[-1]], ':', sentences[s]['sentence'])
-		# print(s, ':', sentences[s]['sentence'])
+		answers.append([sentences[s]['sent_stemmed_overlap'], sentences[s]['sent_text'], sentences[s]['sent_tags'], sentences[s]['sent_tokens'], sentences[s]['nbr_text'], sentences[s]['nbr_tags'], sentences[s]['nbr_tokens'], sentences[s]['topic1'], sentences[s]['topic2'], sentences[s]['answer_type']])
+# 		print(s, ':', [round(val, 2) for val in answers[-1]], ':', sentences[s]['sentence'])
+		print(s, ':', sentences[s]['sentence'])
 
 	answers = np.array(answers)
-	mean = answers.mean(axis = 0).reshape((1, 8))
+	mean = answers.mean(axis = 0).reshape((1, 10))
 	std = answers.std(axis = 0)
 	for i in range(len(mean)):
 		if std[i] != 0:
@@ -29,11 +29,14 @@ for question in history:
 		else:
 			answers[i, :] = answers[i, :] - mean[i]
 
-	# correct_answers = set(map(int, input().split()))
+			
+	correct_answers = set(map(int, input().split()))
 
 	for s in range(len(sentences)):
-		data.append([question, sentences[s]['sentence'], 0] + [answers[s][i] for i in range(len(answers[s]))])
+		data.append([question, sentences[s]['sentence'], s in correct_answers] + [answers[s][i] for i in range(len(answers[s]))])
 
-	data = [['question', 'candidate answer', 'is correct', 'sent_text', 'sent_tags', 'sent_tokens', 'nbr_text', 'nbr_tags', 'nbr_tokens', 'topic1', 'topic2']] + data
 
-	write_csv(data, 'question_answer_pairs.csv')
+data = [['question', 'candidate answer', 'is correct', 'sent_stemmed_overlap', 'sent_text', 'sent_tags', 'sent_tokens', 'nbr_text', 'nbr_tags', 'nbr_tokens', 'topic1', 'topic2', 'answer_type']] + data
+
+# write_csv(data, '../data/kg/outputs_kg_v6.csv')
+write_csv(data, '../data/question_answer_pairs.csv')

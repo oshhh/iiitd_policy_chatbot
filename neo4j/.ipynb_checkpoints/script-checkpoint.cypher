@@ -8,14 +8,16 @@ CALL apoc.load.json('http://localhost:11001/project-2835420e-41ec-4a00-b404-9d18
 YIELD value
 UNWIND value['vertices']['documents'] AS u
 MERGE (v:Document{id: u.id})
-SET v.text = u.text;
+SET v.text = u.text
+SET v.source = u.source;
 
 CALL apoc.load.json('http://localhost:11001/project-2835420e-41ec-4a00-b404-9d1810b91cda/graph.json') 
 YIELD value
 UNWIND value['vertices']['topics'] AS u
 MERGE (v:Topic{id: u.id})
 SET v.text = u.text
-SET v.keywords = u.keywords;
+SET v.keywords = u.keywords
+SET v.tags = u.tags;
 
 CALL apoc.load.json('http://localhost:11001/project-2835420e-41ec-4a00-b404-9d1810b91cda/graph.json') 
 YIELD value
@@ -27,7 +29,8 @@ CALL apoc.load.json('http://localhost:11001/project-2835420e-41ec-4a00-b404-9d18
 YIELD value
 UNWIND value['vertices']['sentences'] AS u
 MERGE (v:Sentence{id: u.id})
-SET v.text = u.text;
+SET v.text = u.text
+SET v.stemmed_tokens = u.stemmed_tokens;
 
 CALL apoc.load.json('http://localhost:11001/project-2835420e-41ec-4a00-b404-9d1810b91cda/graph.json') 
 YIELD value
@@ -96,3 +99,7 @@ YIELD value
 UNWIND [x IN value['edges']['main'] WHERE x[1] = 'about_entity'] AS e
 MATCH (u{id:e[0]}), (v{id:e[2]})
 MERGE((u)-[r:about_entity]->(v));
+      
+MATCH (s:Sentence)-[*]->(e:ExtEntity)
+WITH e, count(s) as doc_freq
+SET e.idf = 1/log(doc_freq + 1.0);

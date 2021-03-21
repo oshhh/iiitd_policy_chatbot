@@ -1,8 +1,8 @@
-from chatbot import *
+from qa_helper import *
 
 init_kg()
-# init_mrc()
-init_bert()
+init_mrc()
+# init_bert()
 
 history = read_json('../data/history.json')
 
@@ -12,6 +12,7 @@ while True:
 
     print('-' * 60)
     question = input()
+    # print(question)
 
     answer = []
     sentences = shortlist_sentences(question)
@@ -45,8 +46,8 @@ while True:
     if not answer:
         print('-' * 60)
         print('Please wait...')
-        answer = find_answer_from_bert(question, sentences)
-        # answer = find_answer_from_mrc(question, sentences)
+        # answer = find_answer_from_bert(question, sentences)
+        answer = find_answer_from_mrc(question, sentences)
 
     print('-' * 60)
     for i in range(len(answer)):
