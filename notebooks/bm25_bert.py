@@ -25,6 +25,9 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer, util
 from qa_helper import KnowledgeGraph
+import matplotlib.pyplot as plt
+import seaborn as sns
+from helper import preprocess_paragraph
 
 class bm25:
 
@@ -135,17 +138,16 @@ class rerankPassages:
     #Combined scoring
     # mu = 0.7
     # k = 10
-    c = mu*sbert_scores + (1-mu)*tfidf_scores
+    rrf = mu*sbert_scores + (1-mu)*tfidf_scores
     # rrf = 1/(k+c) + 1/(k + bm25_scores)
-    rrf = c
+  
     # print(rrf)
     # print(np.shape(rrf))
     #retrive top k passages
     scores = rrf.tolist()
-    print(len(scores[0]))
     score_passage = [(s,i) for i, s in enumerate(scores[0])]
     score_passage.sort(reverse = True)
-    return [self.document[i[1]] for i in score_passage[:3]]
+    return [self.document[i[1]] for i in score_passage[:15]]
 
 class bert:
 
@@ -158,6 +160,16 @@ class bert:
     answer = self.bert(question = question, context = sentence)
     return answer
 
+def mergeAnswers(pr_paras, kg_sentences):
+  s = set()
+  for i in kg_sentences:
+    # print(i)
+    for p in pr_paras:
+      # print(p)
+      if i['sentence'] in p:
+        s.add(p)
+  return s
+
 def completeAnswer(answer, para):
   for p in para:
     if answer in p:
@@ -167,7 +179,7 @@ def completeAnswer(answer, para):
 def getTopics(filename):
   with open(filename) as file:
     data = json.load(file)
-  topics = ['' for i in range(len(data["vertices"]["topics"]))]
+  topics = ['' for i in range(len(data["vertices"]["paragraphs"]))]
   edges = data["edges"]["main"]
   count = 0
   # print(edges)
@@ -177,7 +189,9 @@ def getTopics(filename):
       topic_id = int(str(e[2])[2:])
       para_id = int(str(e[0])[2:])
       # print(topic_id, para_id)
-      topics[topic_id] += data["vertices"]["paragraphs"][para_id]["text"]
+      para_data = preprocess_paragraph(data["vertices"]["paragraphs"][para_id]["text"])
+      if topics[para_id] == '' : topics[para_id] += data['vertices']['topics'][topic_id]['text'] + '|' + para_data
+      else: topics[para_id] = data['vertices']['topics'][topic_id]['text'] + " | " + topics[para_id]
       count += 1
   return topics
 
@@ -189,7 +203,30 @@ def getPassages(filename):
       passages.append(i["text"])
     return passages
 
-passages = getPassages("../data/handbook_graph.json")
+def getQuestions(questionFile, answerFile):
+  questions = list()
+  with open(questionFile) as file:
+    for line in file:
+      questions.append([line[:-1]])
+  questions[-1][0] = questions[-1][0] + "?"
+  
+  ind = 0
+  with open(answerFile) as file:
+    data = json.load(file)
+    for q in data:
+      for a in data[q]:
+        if a['isCorrect'] and q == questions[ind][0]:
+          questions[ind].append(a['sentence'].lstrip())
+      if len(questions[ind]) == 1:
+        questions[ind].append("")
+      ind += 1
+
+  return questions
+
+
+questionAnswerPair = getQuestions("../data/kg/questions.txt", "../data/kg/answers_2.json")
+print(len(questionAnswerPair))
+passages = getTopics("../data/handbook_graph.json")
 print(len(passages))
 
 SPACY_MODEL = os.environ.get("SPACY_MODEL", "en_core_web_sm")
@@ -197,50 +234,59 @@ nlp = spacy.load(SPACY_MODEL, disable = ["ner","parser","textcat"])
 
 retreivePassage = rerankPassages(nlp)
 retreivePassage.fit(passages)
+# kg = KnowledgeGraph('chatbot', 'password')
 
-questions = [
-             "How do I calculate cgpa",
-             "What is the normal load for UG students",
-             "If I fail a course and take it again in the later semester, will my earlier course with F grade be removed from the transcript",
-            " what is the process of registration?",
-            "how many seats are there in cse for admission?",
-             " what is the admission criteria for btech",
-             "I am in 1st year. Can I take overload?",
-             "I am in 2nd year. Can I take overload?",
-             "what happens if I miss the endsem because of a medical reason?",
-             "what happens if I fail a course?",
-             " what happens if I get an F grade in a course?",
-             "How can I calculate sgpa",
-             "What if I pass all my semesters",
-             "What about canteen",
-             "Will I get hostel",
-             "I dont know anything about IIIT",
-             "Who was abraham lincoln",
-             "Can i take 8 credits of online courses in a semester",
-             "how many credits do i need to graduate",
-             "how is my semester graded",
-             "what if I do more than 156 credits in my btech course",
-             "can I take up internships during a semester?",
-              "what is the i grade",
-              "can I replace a core course on getting an F grade?",
-              "how can I get the grade given to me in a course changed?",
-              "how will my cgpa be computed if I do more than 156 credits?",
-              "is there any rule for attendance?",
-              "how can I apply for a semester leave?",
-              "how can I apply for branch transfer from ece to cse",
-              "what is the minimum credit requirement for graduation?",
-              "what are the requirements to get an honors degree?",
-              "when is the convocation held?"
-]
-for q in questions:
-  print(q,"\n",retreivePassage.rankDocuments(q, 0.5,50))
+# questions = [
+#              "How do I calculate cgpa",
+#              "What is the normal load for UG students",
+#              "If I fail a course and take it again in the later semester, will my earlier course with F grade be removed from the transcript",
+#             " what is the process of registration?",
+#             "how many seats are there in cse for admission?",
+#              " what is the admission criteria for btech"
+#              "I am in 1st year. Can I take overload?",
+#              "I am in 2nd year. Can I take overload?",
+#              "what happens if I miss the endsem because of a medical reason?",
+#              "what happens if I fail a course?",
+#              " what happens if I get an F grade in a course?",
+#              "How can I calculate sgpa",
+#              "What if I pass all my semesters",
+#              "What about canteen",
+#              "Will I get hostel",
+#              "I dont know anything about IIIT",
+#              "Who was abraham lincoln",
+#              "Can i take 8 credits of online courses in a semester",
+#              "how many credits do i need to graduate",
+#              "how is my semester graded",
+#              "what if I do more than 156 credits in my btech course",
+#              "can I take up internships during a semester?",
+#               "what is the i grade",
+#               "can I replace a core course on getting an F grade?",
+#               "how can I get the grade given to me in a course changed?",
+#               "how will my cgpa be computed if I do more than 156 credits?",
+#               "is there any rule for attendance?",
+#               "how can I apply for a semester leave?",
+#               "how can I apply for branch transfer from ece to cse",
+#               "what is the minimum credit requirement for graduation?",
+#               "what are the requirements to get an honors degree?",
+#               "when is the convocation held?"
+# ]
+
+# for q in questions:
+#   sentences = kg.retrieveSentences(q, 10)
+#   passages = retreivePassage.rankDocuments(q, 0.7,50)
+#   print(q)
+#   paras = mergeAnswers(passages[:5], sentences[:5])
+#   for i in range(2):
+#     if len(paras) < 2: paras.update(mergeAnswers(passages[5*i:5*(i+1)], sentences))
+#   print(paras)
+  
 
 
 # SPACY_MODEL = os.environ.get("SPACY_MODEL", "en_core_web_sm")
 # nlp = spacy.load(SPACY_MODEL, disable = ["ner","parser","textcat"])
 # retreivePassage = PassageRetrieval(nlp)
 # retreivePassage.fit(passages)
-# bertModel = bert("deepset/bert-base-cased-squad2")
+bertModel = bert("deepset/bert-base-cased-squad2")
 
 # questions = [
 #              "How do I calculate cgpa",
@@ -277,16 +323,67 @@ for q in questions:
 #               "when is the convocation held?"
 # ]
 
-# for q in questions:
-#   topAnswer = retreivePassage.rankDocuments(q, 0.5, 20)
+score = 0
+mrr = 0
+indices = [0]*15
+for q in questionAnswerPair:
+  topAnswer = retreivePassage.rankDocuments(q[0], 0.4, 20)
+  # sentences = kg.retrieveSentences(q[0], 10)
+  # paras = mergeAnswers(topAnswer, sentences)
+  # print(q)
+  for ans in q[1:]:
+    indexFound = 1
+    flag = False
+    for t in topAnswer:
+      if ans in t:
+        mrr += 1/indexFound
+        print(mrr)
+        flag = True
+        break
+      indexFound += 1
+    if flag:
+        break
+    print("still in")
+  
+  if flag:
+    indices[indexFound-1] += 1
+  if not flag:
+    print(q[0],"\n",q[1:],"\n", topAnswer)
+
+  # for i in range(2):
+  #   if len(paras) < 2: paras.update(mergeAnswers(topAnswer[5*i:5*(i+1)], sentences))
+  #   else: break
+
 #   # print(topAnswer)
+#   topAnswer = paras
 #   sentence = ""
 #   for i in topAnswer:
 #     # print(i)
 #     sentence += i + " "
-#   ans = bertModel.evaluateAnswer(q, sentence)
+
+#   if len(topAnswer) == 0:
+#     print("No answer for question:",q[0])
+#     score += 1
+#     continue
+
+#   ans = bertModel.evaluateAnswer(q[0], sentence)
 #   print(len(sentence.split()))
-#   print("Q:",q)
-#   print("Ans:",ans,completeAnswer(ans["answer"], topAnswer))
-#   # print(len(sentence.split()))
+#   # print("Q:",q)
+#   # print("Ans:",ans,completeAnswer(ans["answer"], topAnswer))
+#   paras = completeAnswer(ans["answer"], topAnswer)
+#   exist = False
+#   for i in q[1:]:
+#     if i in paras: 
+#       exist = True
+#       score += 1
+#   if not exist:
+#     print("Q:",q)
+#     print("Ans:",ans,completeAnswer(ans["answer"], topAnswer))
+#     # print(len(sentence.split()))
 #   print("---------------------")
+
+# print((score/len(questionAnswerPair))*100)
+
+print(*indices)
+print(mrr/len(questionAnswerPair))
+sns.displot(indices, kind = 'hist')

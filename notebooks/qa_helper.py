@@ -17,7 +17,7 @@ bert_tokenizer = None
 def init_kg(username, password):
     print('loading kg')
     global driver
-    driver = GraphDatabase.driver('neo4j://localhost:11008', auth=(username, password))
+    driver = GraphDatabase.driver('neo4j://localhost:7687', auth=(username, password))
     print('finished')
 
 def init_bert():
@@ -40,7 +40,6 @@ def init_mrc():
 
 def shortlist_sentences(query, num_sentences = 10):
     global driver
-
     with driver.session() as session:
         sentences = session.read_transaction(q_shortlist_sentences, query, num_sentences)
 
@@ -102,7 +101,7 @@ def q_shortlist_sentences(tx, query, top_k):
     
     keywords.append(['##NO_MATCH##', question_types, []])
     
-    weights = [ 1, 1, 1, 1, 1, 1, 1, 1]
+    weights = [1.21331255, 4.73858929, 0.79974172, 2.0962204, 0.79974172, 1.13216203, 0.44272739, 0.]
     query = (
         'with ' + str(keywords) + ' as keywords, ' + str(question_types) + ' as answer_types, ' + str(stemmed_tokens) + ' as stemmed_query_tokens \n' +
         'match (main_topic:Topic)<-[]-(p:Paragraph)-[]->(s:Sentence)-[*]->(sent_e:ExtEntity) \n' + 
@@ -325,3 +324,17 @@ def q_get_graph_with_neighbours(tx, nodes, nbr_of_nodes):
     record = [record for record in records][0]
     nodes, edges = record['nodes'], record['edges']
     return nodes, edges
+
+class KnowledgeGraph:
+
+    def __init__(self, username, password):
+        self.username = username
+        self.password = password
+        self.initializeGraph()
+
+    def initializeGraph(self):
+        init_kg(self.username, self.password)
+
+    def retrieveSentences(self, query, min_sentences = 10):
+        return shortlist_sentences(query, min_sentences)
+
