@@ -19,8 +19,8 @@ bert_tokenizer = None
 def init_spellcheck():
     print('loading spell check')
     global spell
-    spell = SpellChecker() # initialize the spell checker
-    spell.word_frequency.load_text_file('data/ug-sentences.txt') # add words to dictionary from text file
+    spell = SpellChecker(distance = 5) # initialize the spell checker
+    spell.word_frequency.load_text_file('C:/Users/mohni/Desktop/github_chatbot/iiitd_policy_chatbot/data/ug-sentences.txt') # add words to dictionary from text file
     # needs to have a file called ug-sentences.txt in data
     print('finished')
 
@@ -55,6 +55,7 @@ def spellcheck(text):
 
     for word in query_arr:
         correct_spelling = spell.correction(word) # find the correct spelling of the word
+        print(correct_spelling)
         spelled_query_qrr.append(correct_spelling)
 
     spell_query = " ".join(spelled_query_qrr)
