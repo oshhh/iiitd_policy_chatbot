@@ -17,7 +17,7 @@ bert_tokenizer = None
 def init_kg(username, password):
     print('loading kg')
     global driver
-    driver = GraphDatabase.driver('neo4j://localhost:11008', auth=(username, password))
+    driver = GraphDatabase.driver('neo4j://localhost:11012', auth=(username, password))
     print('finished')
 
 def init_bert():
@@ -102,7 +102,7 @@ def q_shortlist_sentences(tx, query, top_k):
     
     keywords.append(['##NO_MATCH##', question_types, []])
     
-    weights = [ 1, 1, 1, 1, 1, 1, 1, 1]
+    weights = [1.21331255, 4.73858929, 0.79974172, 2.0962204, 0.79974172, 1.13216203, 0.44272739, 0. ]
     query = (
         'with ' + str(keywords) + ' as keywords, ' + str(question_types) + ' as answer_types, ' + str(stemmed_tokens) + ' as stemmed_query_tokens \n' +
         'match (main_topic:Topic)<-[]-(p:Paragraph)-[]->(s:Sentence)-[*]->(sent_e:ExtEntity) \n' + 

@@ -416,7 +416,7 @@ def get_type(entity):
     if 'sport' in entity and 'complex' in words:
         return 'sports block', ['location', 'building']
     if 'canteen' in words or 'mess' in words or 'dining' in words:
-        return 'canteen', 'location', 'building', 'canteen'
+        return 'canteen', ['location', 'building', 'canteen']
     if 'block' in words or 'building' in words:
         if 'sem' in entity:
             return 'seminar block', ['location', 'building']
