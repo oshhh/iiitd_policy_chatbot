@@ -279,7 +279,11 @@ def getQuestions(questionFile, answerFile):
 def init(username, password):
 	global retreivePassage
 
+<<<<<<< HEAD
 	passages = getTopics("/Users/osheensachdev/btp/iiitd_policy_chatbot/neo4j/iiit_website_graph.json")
+=======
+	passages = getTopics("C:/Users/mohni/Desktop/github_chatbot/iiitd_policy_chatbot/data/handbook_graph.json")
+>>>>>>> 8dbc289bc06a21824413bf13e135e3b47c5b4f05
 	print("Document loaded")
 
 	SPACY_MODEL = os.environ.get("SPACY_MODEL", "en_core_web_sm")
