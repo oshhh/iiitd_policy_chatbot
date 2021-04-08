@@ -1,6 +1,9 @@
 import time
 import numpy as np
 import torch
+from spellchecker import SpellChecker
+import nltk
+# nltk.download('punkt')
 
 from helper import *
 
@@ -13,6 +16,13 @@ mrc = None
 bert_model = None
 bert_tokenizer = None
 
+def init_spellcheck():
+    print('loading spell check')
+    global spell
+    spell = SpellChecker(distance = 5) # initialize the spell checker
+    spell.word_frequency.load_text_file('C:/Users/mohni/Desktop/github_chatbot/iiitd_policy_chatbot/data/ug-sentences.txt') # add words to dictionary from text file
+    # needs to have a file called ug-sentences.txt in data
+    print('finished')
 
 def init_kg(username, password):
     print('loading kg')
@@ -37,10 +47,22 @@ def init_mrc():
     import allennlp_models.rc
     mrc = Predictor.from_path("/Users/osheensachdev/btp/iiitd_policy_chatbot/bidaf-elmo-model-2020.03.19.tar.gz")
     print('finished')
+    
+def spellcheck(text):
+    query_arr = nltk.word_tokenize(text) # tokenize the text
+    
+    spelled_query_qrr = []
+
+    for word in query_arr:
+        correct_spelling = spell.correction(word) # find the correct spelling of the word
+        print(correct_spelling)
+        spelled_query_qrr.append(correct_spelling)
+
+    spell_query = " ".join(spelled_query_qrr)
+    return spell_query
 
 def shortlist_sentences(query, num_sentences = 10):
     global driver
-
     with driver.session() as session:
         sentences = session.read_transaction(q_shortlist_sentences, query, num_sentences)
 
@@ -325,3 +347,17 @@ def q_get_graph_with_neighbours(tx, nodes, nbr_of_nodes):
     record = [record for record in records][0]
     nodes, edges = record['nodes'], record['edges']
     return nodes, edges
+
+class KnowledgeGraph:
+
+    def __init__(self, username, password):
+        self.username = username
+        self.password = password
+        self.initializeGraph()
+
+    def initializeGraph(self):
+        init_kg(self.username, self.password)
+
+    def retrieveSentences(self, query, min_sentences = 10):
+        return shortlist_sentences(query, min_sentences)
+

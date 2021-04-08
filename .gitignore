@@ -1,1 +1,3 @@
 bidaf-elmo-model-2020.03.19.tar.gz
+notebooks/__pycache__/
+.ipynb_checkpoints/
