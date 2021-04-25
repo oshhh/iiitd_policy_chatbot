@@ -1,6 +1,5 @@
 import json
 import csv
-from pdf2docx import parse
 from docx import Document
 import networkx as nx
 import matplotlib.pyplot as plt
